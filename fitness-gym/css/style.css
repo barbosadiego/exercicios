@@ -240,3 +240,42 @@ p{
     font-weight: bold;
     text-transform: uppercase;
 }
+
+/*GROUP-5*/
+
+.group-5{
+    background: black;
+    padding: 100px 0;
+}
+
+.intro-group-5, .group-5 ul li{
+    text-align: center;
+}
+
+.group-5 div h2{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.intro-group-5 span, .intro-group-5 p{
+    color: #3EA2D8;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.intro-group-5 p{
+    padding-bottom: 50px;
+}
+
+.intro-group-5 span{
+    margin-bottom: 80px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.intro-group-5 span:last-child{
+    margin-right: 0px;
+}
