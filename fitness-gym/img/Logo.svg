@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="188.545" height="38.67" viewBox="0 0 188.545 38.67">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 0 0">
+      <image/>
+    </pattern>
+  </defs>
+  <g id="Logo" transform="translate(-131 -48.627)">
+    <text id="YOUR_TAGLINE_HERE" data-name="YOUR TAGLINE HERE" transform="translate(242.069 85.297)" fill="#fff" font-size="9.163" font-family="Raleway-Regular, Raleway" letter-spacing="0.2em"><tspan x="-60.34" y="0">YOUR TAGLINE HERE</tspan></text>
+    <text id="FITNESSGYM" transform="translate(163.545 72.627)" fill="#fff" font-size="25.655" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="-0.025em"><tspan x="0" y="0">FITNESS</tspan><tspan y="0" fill="#3ea2d8" font-family="Raleway-ExtraBold, Raleway" font-weight="800">GYM</tspan></text>
+    <g id="Vector_Smart_Object_Double_Click_to_Edit_" data-name="Vector Smart Object (Double Click to Edit)" transform="translate(131 54)">
+      <rect id="Place_Your_Design_Here" data-name="Place Your Design Here" fill="url(#pattern)"/>
+    </g>
+  </g>
+</svg>
