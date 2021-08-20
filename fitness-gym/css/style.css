@@ -376,5 +376,29 @@ p{
 
 .cta-8 p{
     padding: 25px 0 50px 500px;
-    
+}
+
+/*GROUP-9*/
+
+.group-9, .group-9b, .group-9c{
+    background: black;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.group-9c{
+    padding-bottom: 150px;
+}
+
+.citacao h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 21px;
+    line-height: 25px;
+    padding: 20px 0 40px 0;
+}
+
+.citacao img{
+    position: relative;
+    top: 25px;
 }
