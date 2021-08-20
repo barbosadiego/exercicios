@@ -417,3 +417,24 @@ p{
     font-weight: bold;
     line-height: 35px;
 }
+
+/*GROUP-11*/
+
+.group-11{
+    background: #000;
+    text-align: center;
+}
+
+.group-11 p{
+    color:#3EA2D8;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 90px 0 40px 0;
+    font-size: 21px;
+    line-height: 33px;
+}
+
+.group-11 h3{
+    color: white;
+    padding-bottom: 90px;
+}
