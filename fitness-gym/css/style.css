@@ -15,6 +15,7 @@ p{
 
 .btn{
     background: white;
+    color: black;
     padding: 15px 40px;
     border-radius: 50px;
     font-size: 22px;
@@ -84,7 +85,7 @@ p{
     width: 100%;
     height: 100%;
     content: "";
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .destaque{
@@ -339,4 +340,41 @@ p{
     color: #3EA2D8;
     margin-top: 30px;
     max-width: 400px;
+}
+
+/*GROUP-8*/
+
+.group-8{
+    background: url(../img/2.png) no-repeat;
+    width: 100%;
+    height: 686px;
+    background-size: cover;
+    position: relative;
+}
+
+.group-8::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cta-8{
+    text-align: right;
+}
+
+.cta-8 h2{
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 190px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.cta-8 p{
+    padding: 25px 0 50px 500px;
+    
 }
