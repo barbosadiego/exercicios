@@ -406,5 +406,14 @@ p{
 /*GROUP-10*/
 
 .group-10{
-    background: #3EA2D8;
+    background: #222;
+    text-align: center;
+    padding: 90px 0;
+    color: white;
+}
+
+.group-10 div h4{
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 35px;
 }
