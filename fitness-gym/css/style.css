@@ -470,6 +470,8 @@ p{
     background: #1585c2;
 }
 
+/*RESPONSIVO*/
+
 @media screen and (max-width: 979px) {
 
     .btn{
