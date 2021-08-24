@@ -65,7 +65,7 @@ img{
     padding-top: 30px;
 }
 
-.interna-sobre::after{
+.introducao-interna::after{
     content: "";
     top: 82px;
     left: 0px;
