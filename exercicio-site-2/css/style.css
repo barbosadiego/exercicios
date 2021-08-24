@@ -274,3 +274,81 @@ cite{
     padding-bottom: 40px;
     font-size: 24px;
 }
+
+/*QUEBRA*/      
+
+.quebra{
+    background: url(../img/bg-footer.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+}
+
+.quebra .quote-externo{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 60px;
+    max-width: 600px;
+}
+
+.quebra .quote-externo p{
+    font-size: 18px;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.quebra .quote-externo cite{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*FOOTER*/
+
+.footer{
+    background: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer h3{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FEC636;
+}
+
+.footer h3:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FEC636;
+    margin: 6px 0 15px 0;
+}
+
+.footer p{
+    padding-right: 60px;
+}
+
+.redes-sociais ul li{
+    display: inline-block;
+}
+
+.redes-sociais ul li a{
+    border: 3px solid #FEC636;
+    display: block;
+    padding: 10px;
+    transition: 400ms;
+}
+
+.redes-sociais ul li a:hover{
+    border-color: white;
+}
+
+.copy{
+    background: #FEC636;
+    padding: 15px 0;
+}
