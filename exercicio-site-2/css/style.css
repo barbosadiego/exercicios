@@ -18,6 +18,7 @@ p{
     color: #FEC636;
     transition: 400ms;
     font-style: 14px;
+    text-transform: uppercase;
     line-height: 20px;
     font-weight: bold;
     letter-spacing: .1em;
@@ -192,5 +193,31 @@ cite{
 
 .cta{
     clear: both;
-    padding: 75px 0 40px 0;
+    padding: 50px 0 40px 0;
+}
+
+/*PORTFOLIO*/
+
+.portfolio{
+    text-align: center;
+    padding: 40px 0;
+    background: black;
+    width: 100%;
+}
+
+.portfolio .subtitulo{
+    color: #FEC636;
+}
+
+.portfolio .subtitulo::after{
+    background: #FEC636;
+}
+
+.produtos-lista li:last-child{
+    padding-top: 20px;
+}
+
+.portfolio .cta p{
+    color: white;
+    padding-bottom: 30px;
 }
