@@ -7,6 +7,16 @@
     padding-top: 60px;
 }
 
+.overlay::after{
+    position: absolute;
+    content: "";
+    width: 640px;
+    height: 280px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 60px;
+    left: 10px;
+}
+
 .produto-icone{
     padding: 70px 0;
 }
