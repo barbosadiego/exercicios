@@ -76,3 +76,88 @@
     margin-left: 1px;
 }
 
+.orcamento{
+    background: black;
+    padding: 60px 0;
+    margin-top: 60px;
+}
+
+.orcamento p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.orcamento .subtitulo{
+    color: #fec636;
+}
+
+.orcamento .subtitulo::after{
+    background: #fec636;
+}
+
+.form{
+    padding-right: 60px;
+}
+
+.orcamento label{
+    color: #fec636;
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 7px;
+}
+
+.orcamento input{
+    display: block;
+    background: none;
+    outline: none;
+    border: 3px solid #fec636;
+    width: 100%;
+    padding: 10px 8px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.orcamento button{
+    display: block;
+    background: none;
+}
+
+.orcamento textarea{
+    background: none;
+    width: 100%;
+    height: 120px;
+    border: 3px solid #fec636;
+    margin-bottom: 20px;
+    color: white;
+    outline: none;
+    padding: 10px;
+}
+
+.orcamento button:hover{
+    cursor: pointer;
+}
+
+.orcamento-dados{
+    color: #fec636;
+    padding-left: 60px;
+}
+
+.orcamento-dados h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.orcamento-dados p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.orcamento-dados ul li{
+    color: white;
+    padding: 10px 8px;
+}
+
+.orcamento-dados ul li:nth-child(odd){
+    background: #1d1d1d;
+}
