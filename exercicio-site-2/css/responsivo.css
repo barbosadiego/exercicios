@@ -7,6 +7,26 @@
 		height: 26px;
 		width: 26px;
 	}
+
+	.overlay::after{
+		width: 508px;
+		height: 222px;
+	}
+
+	.produto-icone{
+		padding: 41px 0;
+	}
+
+	.produtos-info p{
+		font-size: 14px;
+		line-height: 20px;
+		padding: 20px 20px;
+	}
+
+	.produtos-info ul li{
+		width: 179px;
+	}
+	
 }
 
 @media only screen and (max-width: 787px){
@@ -79,5 +99,6 @@
 	.missao-sobre p{
 		padding-right: 0px;
 	}
+
 	
 }
