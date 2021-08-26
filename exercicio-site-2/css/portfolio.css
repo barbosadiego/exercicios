@@ -2,3 +2,23 @@
     background: url(../img/bg-portfolio.jpg) no-repeat center;
     background-size: cover;   
 }
+
+.quote-clientes{
+    padding: 60px 0;
+    max-width: 550px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.quote-clientes p{
+    font-style: italic;
+    text-align: center;
+}
+
+.quote-clientes cite{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    float: right;
+    margin: 20px 0;
+}
