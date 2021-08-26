@@ -1,0 +1,60 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+	
+}
+
+@media only screen and (max-width: 787px){
+
+	.header{
+		position: relative;
+	}
+
+	.header img{
+		margin: 0 auto;
+	}
+
+	.header-menu {
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.header-menu ul li{
+		display: inline-block;
+		margin: 10px 0;
+		width: 140px;
+		border: 4px solid black;
+		padding: 10px 5px;
+		transition: 400ms;
+	}
+
+	.header-menu ul li:hover{
+		border-color: white;
+	}
+
+	.introducao{
+		background: url(../img/bg-mobile.jpg) no-repeat center;
+		margin-top: 0;
+	}
+
+	.introducao::after{
+		margin-top: 218px;
+		height: 380px;
+	}
+
+	.introducao h1{
+		font-size: 40px;
+		margin-top: 40px;
+	}
+
+	.cta{
+		padding: 0 0 20px 0;
+	}
+
+	.qualidade:after{
+		display: none;
+	}
+
+	.qualidade .cta p{
+		font-size: 18px;
+		line-height: 25px;
+	}
+}
