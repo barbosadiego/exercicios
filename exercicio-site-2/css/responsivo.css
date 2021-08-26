@@ -13,6 +13,10 @@
 		height: 222px;
 	}
 
+	.produto-item h2{
+		top: -140px;
+	}
+
 	.produto-icone{
 		padding: 41px 0;
 	}
@@ -100,5 +104,36 @@
 		padding-right: 0px;
 	}
 
-	
+	.overlay::after{
+		width: 300px;
+		height: 131px;
+		left: 0;
+	}
+
+	.produto-item h2{
+		top: -100px;
+	}
+
+	.produto-icone{
+		padding: 41px 0;
+	}
+
+	.produtos-info p{
+		font-size: 14px;
+		line-height: 20px;
+		padding: 20px 20px;
+	}
+
+	.produtos-info ul li{
+		width: 147px;
+		font-size: 14px;
+	}
+
+	.form{
+		padding-right: 0px;
+	}
+
+	.orcamento-dados{
+		padding-left: 0;
+	}
 }
