@@ -103,16 +103,22 @@
         <div class="container">
             <h2 class="subtitulo">orçamento</h2>
             <div class="grid-8 form">
-                <form id="form-orcamento">
+                <form id="form-contato">
                     <label for="nome">Nome</label>
-                    <input type="text" id="nome">
+                    <input type="text" id="nome" name="nome" required>
                     <label for="email">Email</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" name="email" required>
                     <label for="telefone">Telefone</label>
                     <input type="tel" id="telefone">
+
+                    <label class="nao-aparece">se você não é um robô deixe este campo em branco</label>
+                    <input type="text" class="nao-aparece" name="leaveblank">
+                    <label class="nao-aparece">se você não é um robô não mude este campo</label>
+                    <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
                     <label for="mensagem">Mensagem</label>
-                    <textarea name="mensagem" id="mensagem"></textarea>
-                    <button type="submit" class="btn">Enviar</button>
+                    <textarea name="mensagem" id="mensagem" required></textarea>
+                    <button id="envier" name="enviar" type="submit" class="btn">Enviar</button>
                 </form>
             </div>
             <div class="orcamento-dados grid-8">
