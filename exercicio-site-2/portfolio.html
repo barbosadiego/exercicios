@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
     <header class="header">
@@ -32,17 +33,30 @@
             <p>Nossos produtos</p>
         </div>
     </section>
-    <section class="container">
+    <section class="container" data-slide="quote">
         <blockquote class="quote-clientes">
             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse enim iure molestiae corporis cum ipsum quidem adipisci libero eligendi deleniti voluptatum voluptatibus delectus pariatur totam expedita, odio error dicta unde."</p>
             <cite>Barbosa Moss</cite>
         </blockquote>
+        <blockquote class="quote-clientes">
+            <p>"Esse enim iure molestiae corporis cum ipsum quidem adipisci libero eligendi deleniti voluptatum voluptatibus delectus pariatur totam expedita, odio error dicta unde."</p>
+            <cite>Johnny Rato</cite>
+        </blockquote>
+        <blockquote class="quote-clientes">
+            <p>Dolores eveniet nihil omnis fugiat soluta excepturi exercitationem reiciendis ut. Soluta repellendus sequi eaque eligendi necessitatibus veniam itaque provident voluptates, neque dolore!</p>
+            <cite>Wiiliam Dafue</cite>
+        </blockquote>
     </section>
     <section class="portfolio">
-        <div class="container">
+        <div class="container" data-slide="portfolio">
             <ul class="produtos-lista">
                 <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="bicicleta retro"></li>
                 <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="bicicleta passeio"></li>
+                <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="bicicleta esporte"></li>
+            </ul>
+            <ul class="produtos-lista">
+                <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="bicicleta retro"></li>
+                <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="bicicleta passeio"></li>
                 <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="bicicleta esporte"></li>
             </ul>
         </div>
@@ -86,5 +100,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/simple-slide.js"></script>;
+    <script src="./js/script.js"></script>;
 </body>
 </html>
