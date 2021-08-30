@@ -207,6 +207,8 @@ img{
     color: #c5c5c5;
 }
 
-.rodape ul li{
+.rodape ul li a{
     display: inline-block;
+    float: right;
+    padding-right: 10px;
 }
