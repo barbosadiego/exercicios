@@ -162,7 +162,6 @@ img{
 
 .icone-texto{
     padding: 20px;
-    margin-bottom: 50px;
     border-left: 2px solid #c5c5c5;
     border-right: 2px solid #c5c5c5;
     border-bottom: 2px solid #c5c5c5;
@@ -182,4 +181,32 @@ img{
     top: 40px;
     position: relative;
     transform: translateY(-50%);   
+}
+
+/*FOOTER*/
+
+.footer{
+    background: #707070;
+    padding: 40px 0;
+}
+
+
+/*FOOTER - RODAPE*/
+
+.footer{
+    color: #ffffff;
+}
+
+.rodape{
+    background: #353535;
+    padding: 20px 0;
+    color: #c5c5c5;
+}
+
+.rodape a{
+    color: #c5c5c5;
+}
+
+.rodape ul li{
+    display: inline-block;
 }
