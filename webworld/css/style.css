@@ -144,7 +144,7 @@ img{
 
 .destaques{
     background-color: #eee;
-    padding: 50px 0;
+    padding: 50px 0 30px 0;
     position: relative;
 }
 
@@ -158,6 +158,10 @@ img{
     left:  calc(50% - 35px);
     transform: rotate(45deg);
     z-index: -1;
+}
+
+.destaques ul li{
+    margin-bottom: 20px;
 }
 
 .icone-texto{
