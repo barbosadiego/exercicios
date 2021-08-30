@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
 
-p, a, h1, h2, h3, h4, h5, h6{
+p, a, h1, h2, h3, h4, h5, h6, span{
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     line-height: 20px;
@@ -183,19 +183,46 @@ img{
     transform: translateY(-50%);   
 }
 
-/*FOOTER*/
+/*FOOTER - RODAPE*/
 
 .footer{
-    background: #707070;
+    background: #535353;
     padding: 40px 0;
 }
 
 
-/*FOOTER - RODAPE*/
-
 .footer{
-    color: #ffffff;
+    color: #c5c5c5;
 }
+
+.footer hr{
+    color: rgba(129, 129, 129, 0.63);
+    width: 130px;
+    position: relative;
+    right: 45px;
+}
+
+.footer h3{
+    font-size: 22px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.footer p{
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+footer span{
+    font-size: 20px;
+    color: #eee;
+}
+
+.calendar span{
+    font-size: 14px;
+    color: #a5a5a5;
+}
+
 
 .rodape{
     background: #353535;
@@ -207,8 +234,12 @@ img{
     color: #c5c5c5;
 }
 
+.rodape p{
+    padding: 5px 0;
+}
+
 .rodape ul li a{
-    display: inline-block;
+    display: inline;
     float: right;
     padding-right: 10px;
 }
