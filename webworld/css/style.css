@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
 
 p, a, h1, h2, h3, h4, h5, h6{
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
 }
 
 img{
@@ -104,4 +105,57 @@ img{
 
 .arrow-r{
     right: 0px;
+}
+
+/*INTRODUÇÃO*/
+
+.introducao{
+    padding: 50px 0;
+    text-align: center;
+    color: #818181;
+}
+
+.introducao img{
+    margin: 0 auto;
+}
+
+.introducao h2{
+    font-size: 30px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.intro-texto{
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+.icone-intro img{
+    margin-bottom: 20px;
+}
+
+.icone-especial img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*DESTAQUES*/
+
+.destaques{
+    background-color: #eee;
+    padding: 50px 0;
+    position: relative;
+}
+
+.destaques.divisor::after {
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: #eee;
+    top: -30px;
+    left:  calc(50% - 35px);
+    transform: rotate(45deg);
+    z-index: -1;
 }
