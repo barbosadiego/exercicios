@@ -159,3 +159,27 @@ img{
     transform: rotate(45deg);
     z-index: -1;
 }
+
+.icone-texto{
+    padding: 20px;
+    margin-bottom: 50px;
+    border-left: 2px solid #c5c5c5;
+    border-right: 2px solid #c5c5c5;
+    border-bottom: 2px solid #c5c5c5;
+}
+
+/*COSTUMER*/
+
+.costumer{
+    padding: 50px 0;
+}
+
+.costumer .container ul li img{
+    margin: 0 auto;
+}
+
+.costumer-ico{
+    top: 40px;
+    position: relative;
+    transform: translateY(-50%);   
+}
