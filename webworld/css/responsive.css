@@ -1,0 +1,63 @@
+@media screen and (min-width: 788px) and (max-width: 979px) {
+    .baner .container p{
+        max-width: 550px;
+    }
+}
+
+@media screen and (max-width: 787px) {
+
+    .menu-top a, nav, .arrow-l, .arrow-r{
+        display: none;
+    }
+
+    .logo{
+        margin: 12px auto;
+    }
+
+    .baner .container h1{
+        font-size: 30px;
+        line-height: 40px;
+        top: 110px;
+    }
+
+    .baner .container p{
+        top: 150px;
+    }
+
+    .introducao h2{
+        line-height: 35px;
+    }
+
+    .intro-texto{
+        padding-bottom: 0px;
+    }
+
+    .icone-intro img, .icone-especial img{
+        margin: 20px auto;
+    }
+
+    .costumer-ico{
+        top: 0px;
+        margin: 18px 0;
+        transform: none;   
+    }
+
+    .footer h3{
+        margin-top: 20px;
+    }
+
+    .rodape{
+        text-align: center;
+    }
+
+    .rodape p{
+        padding: 20px 0;
+    }
+
+    .rodape ul li{
+        display: inline-block;
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+
+}
