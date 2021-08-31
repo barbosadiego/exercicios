@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+
+p, a, h1, h2, h3, h4, h5, h6, span{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/*HEADER*/
+
+.header{
+    background: #353535;
+}
+
+.menu-top{
+    padding: 10px 0;
+}
+
+.logo{
+    height: 32px;
+    width: 112px;
+}
+
+.menu-top a{
+    float: right;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 27px;
+    width: 27px;
+}
+
+.menu-botton ul li{ 
+    display: inline-block;
+    margin-right: 15px;
+    padding: 30px 0;
+}
+.menu-botton ul li a{
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 20px;
+    color: #707070;
+    transition: 400ms;
+}
+
+.menu-botton ul li a:hover{
+    color: #00bac6;
+}
+
+.busca input{
+    outline: none;
+    margin-top: 25px;
+    padding: 7px 10px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    background: url(../img/Layer\ 11.svg) no-repeat;
+    background-position-x: 180px;
+    background-position-y: center;
+    border: 3px solid rgba(0, 0, 0, 0.144)
+}
+
+.busca input:focus{
+    background: none;
+}
+
+/*BANER*/
+
+.baner{
+    background: url(../img/hero.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.baner .container h1{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 210px;
+    text-align: center;
+}
+
+.baner .container p{
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    top: 250px;
+    max-width: 750px;
+}
+
+.arrow-l, .arrow-r{
+    position: absolute;
+    top: 250px;
+}
+
+.arrow-r{
+    right: 0px;
+}
+
+/*INTRODUÇÃO*/
+
+.introducao{
+    padding: 50px 0;
+    text-align: center;
+    color: #818181;
+}
+
+.introducao img{
+    margin: 0 auto;
+}
+
+.introducao h2{
+    font-size: 30px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.intro-texto{
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+.icone-intro img{
+    margin-bottom: 20px;
+}
+
+.icone-especial-desk img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.icone-especial-mobile{
+    display: none;
+}
+
+/*DESTAQUES*/
+
+.destaques{
+    background-color: #eee;
+    padding: 50px 0 30px 0;
+    position: relative;
+}
+
+.destaques.divisor::after {
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: #eee;
+    top: -30px;
+    left:  calc(50% - 35px);
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.destaques ul li{
+    margin-bottom: 20px;
+}
+
+.icone-texto{
+    padding: 20px;
+    border-left: 1px solid #c5c5c5;
+    border-right: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+/*COSTUMER*/
+
+.costumer{
+    padding: 50px 0;
+}
+
+.costumer .container ul li img{
+    margin: 0 auto;
+}
+
+.costumer-ico{
+    top: 40px;
+    position: relative;
+    transform: translateY(-50%);   
+}
+
+/*FOOTER - RODAPE*/
+
+.footer{
+    background: #535353;
+    padding: 40px 0;
+}
+
+
+.footer{
+    color: #c5c5c5;
+}
+
+.info ul li p, .footer img{
+    display: inline;
+}
+
+.info ul li{
+    padding: 0 0 10px 0;
+}
+
+.info ul li p{
+    padding-left: 10px;
+}
+
+.footer hr{
+    color: rgba(129, 129, 129, 0.63);
+    width: 130px;
+    position: relative;
+    right: 45px;
+}
+
+.footer h3{
+    color: #eee;
+    font-size: 22px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.footer p{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+footer span{
+    font-size: 20px;
+    color: #eee;
+}
+
+.calendar span{
+    font-size: 14px;
+    color: #a5a5a5;
+}
+
+
+.rodape{
+    background: #353535;
+    padding: 20px 0;
+    color: #c5c5c5;
+}
+
+.rodape a{
+    color: #c5c5c5;
+}
+
+.rodape p{
+    padding: 5px 0;
+}
+
+.rodape ul li a{
+    float: right;
+    padding-right: 10px;
+}
