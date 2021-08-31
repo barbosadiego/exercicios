@@ -6,8 +6,21 @@
 
 @media screen and (max-width: 787px) {
 
-    .menu-top a, nav, .arrow-l, .arrow-r{
+    .menu-top a, .busca input, .arrow-l, .arrow-r{
         display: none;
+    }
+
+    .menu-botton{
+        text-align: center;
+        margin: 0;
+    }
+
+    .menu-botton ul li{
+        padding: 10px 0;
+    }
+
+    .menu-botton ul li a{
+        font-size: 18px;
     }
 
     .logo{

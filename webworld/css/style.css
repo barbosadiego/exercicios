@@ -11,6 +11,10 @@ img{
     max-width: 100%;
 }
 
+.checkbtn, input#check{
+    display: none;
+}
+
 /*HEADER*/
 
 .header{
