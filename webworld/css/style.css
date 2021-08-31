@@ -135,9 +135,13 @@ img{
     margin-bottom: 20px;
 }
 
-.icone-especial img{
+.icone-especial-desk img{
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.icone-especial-mobile{
+    display: none;
 }
 
 /*DESTAQUES*/
@@ -219,6 +223,7 @@ img{
 }
 
 .footer h3{
+    color: #eee;
     font-size: 22px;
     line-height: 20px;
     padding-bottom: 10px;

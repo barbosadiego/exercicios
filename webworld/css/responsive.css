@@ -32,8 +32,16 @@
         padding-bottom: 0px;
     }
 
-    .icone-intro img, .icone-especial img{
+    .icone-intro img, .icone-especial-mobile img{
         margin: 20px auto;
+    }
+
+    .icone-especial-desk{
+        display: none;
+    }
+
+    .icone-especial-mobile{
+        display: inline;
     }
 
     .costumer-ico{
