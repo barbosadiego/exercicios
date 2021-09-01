@@ -69,6 +69,21 @@ img{
 	border-color: #c59802;
 }
 
+h3{
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 50px;
+	padding: 80px 20px 50px 0;
+}
+
+h2 {
+	font-size: 75px;
+	font-weight: bold;
+	line-height: 50px;
+	padding-bottom: 30px;
+	text-transform: capitalize;
+}
+
 /*HEADER*/
 
 header{
@@ -119,7 +134,7 @@ header{
 	color: white;
 }
 
-.intro p{
+.group-1 .intro p{
 	color: white;
 	font-size: 20px;
 	line-height: 20px;
@@ -145,12 +160,6 @@ header{
 	padding: 140px 0 170px 0;
 }
 
-.group-2 h2{
-	font-size: 40px;
-	font-weight: 600;
-	line-height: 50px;
-	padding: 80px 20px 50px 0;
-}
 
 .group-2 p{
 	font-size: 20px;
@@ -183,14 +192,6 @@ header{
 	color: white;
 }
 
-.group-3 h2{
-	font-size: 75px;
-	font-weight: bold;
-	line-height: 90px;
-	padding-bottom: 30px;
-	text-transform: capitalize;
-}
-
 .group-3 .grid-16 p{
 	font-size: 23px;
 	padding-bottom: 50px;
@@ -198,7 +199,7 @@ header{
 	margin: 0 auto;
 }
 
-.group-3 h3{
+.group-3 h4{
 	font-size: 30px;
 	font-weight: 500;
 	line-height: 45px;
@@ -210,6 +211,7 @@ header{
 
 .group-4{
 	padding: 140px 0;
+	text-align: right;
 }
 
 .group-4 .ico::after{
@@ -226,15 +228,15 @@ header{
 
 .group-4 p, .group-4 h2 {
 	color: black;
-	text-align: right;
-	padding-left: 20px;
+	
 }
 
-.group-4 h2{
-	font-size: 40px;
-	font-weight: 600;
-	line-height: 50px;
-	padding-top: 40px;
+.group-4 h3{
+	padding: 50px 0 0px 0px
+}
+
+.group-4 p{
+	padding: 20px 0 30px 30px;
 }
 
 .group-4 a{
