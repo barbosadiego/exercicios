@@ -142,7 +142,7 @@ header{
 /*GROUP-2*/
 
 .group-2{
-	padding: 140px 0;
+	padding: 140px 0 170px 0;
 }
 
 .group-2 h2{
@@ -172,9 +172,39 @@ header{
 	top: 260px;
 	left: -30px;
 	z-index: -1;
-
 }
 
+/*GROUP-3*/
+
+.group-3{
+	padding: 140px 0;
+	background: #FCC302;
+	text-align: center;
+	color: white;
+}
+
+.group-3 h2{
+	font-size: 75px;
+	font-weight: bold;
+	line-height: 90px;
+	padding-bottom: 30px;
+	text-transform: capitalize;
+}
+
+.group-3 .grid-16 p{
+	font-size: 23px;
+	padding-bottom: 50px;
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+.group-3 h3{
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 45px;
+	margin-top: 30px;
+	text-transform: capitalize;
+}
 
 
 
