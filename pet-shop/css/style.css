@@ -206,6 +206,42 @@ header{
 	text-transform: capitalize;
 }
 
+/*GROUP-4*/
+
+.group-4{
+	padding: 140px 0;
+}
+
+.group-4 .ico::after{
+	position: absolute;
+	content: "";
+	display: block;
+	height: 206px;
+	width: 252px;
+	background: #FCC302;
+	top: 260px;
+	left: 230px;
+	z-index: -1;
+}
+
+.group-4 p, .group-4 h2 {
+	color: black;
+	text-align: right;
+	padding-left: 20px;
+}
+
+.group-4 h2{
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 50px;
+	padding-top: 40px;
+}
+
+.group-4 a{
+	float: right;
+	margin-right: 0;
+}
+
 
 
 
