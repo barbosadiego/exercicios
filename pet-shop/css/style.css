@@ -26,6 +26,49 @@ img{
 	display: none;
 }
 
+.btn{
+	color: white;
+	font-weight: bold;
+	border: 3px solid white;
+	transition: 0.5s;
+	padding: 15px 25px;
+	border-radius: 3px;
+}
+
+.btn:hover{
+	border-color: #00BEC9;
+}
+
+.btn-azul{
+	color: white;
+	font-weight: bold;
+	background: #00BEC9;
+	border: 3px solid #00BEC9;
+	transition: 0.5s;
+	padding: 15px 25px;
+	border-radius: 3px;
+}
+
+.btn-azul:hover{
+	background: #008b92;
+	border-color: #008b92;
+}
+
+.btn-amarelo{
+	color: white;
+	font-weight: bold;
+	background: #FCC302;
+	border: 3px solid #FCC302;
+	transition: 0.5s;
+	padding: 15px 25px;
+	border-radius: 3px;
+}
+
+.btn-amarelo:hover{
+	background: #c59802;
+	border-color: #c59802;
+}
+
 /*HEADER*/
 
 header{
@@ -37,7 +80,6 @@ header{
 	font-weight: bold;
 	color: white;
 	line-height: 80px;
-	padding: 7px 10px;
 }
 
 .menu ul li{
@@ -53,16 +95,16 @@ header{
 	padding-right: 25px;
 	font-weight: 500;
 	letter-spacing: 0.1em;
-	padding: 7px 10px;
-	border-radius: 3px;
 	transition: 0.5s;
+	padding: 7px 15px;
+	border-radius: 4px;
 }
 
 .menu ul li a:hover {
 	background: #00BEC9;
 }
 
-/*INTRO*/
+/*GROUP-1*/
 
 .group-1{
 	background: #FCC302;
@@ -86,40 +128,51 @@ header{
 
 .intro a{
 	margin-right: 30px;
-	padding: 15px 25px;
-	border-radius: 4px;
-	color: white;
-	font-weight: bold;
-}
-
-.btn{
-	border: 3px solid white;
-	transition: 0.5s;
-}
-
-.btn:hover{
-	border-color: #00BEC9;
-}
-
-.btn-azul{
-	background: #00BEC9;
-	border: 3px solid #00BEC9;
-	transition: 0.5s;
-}
-
-.btn-azul:hover{
-	background: #008b92;
-	border-color: #008b92;
 }
 
 .group-1 .grid-6{
 	position: relative;
 }
 
-
 .intro-img{
 	position: absolute;
 	top: 60px;
+}
+
+/*GROUP-2*/
+
+.group-2{
+	padding: 140px 0;
+}
+
+.group-2 h2{
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 50px;
+	padding: 80px 20px 50px 0;
+}
+
+.group-2 p{
+	font-size: 20px;
+	line-height: 25px;
+	padding: 0 50px 50px 0;
+}
+
+.about-img{
+	position: relative;
+}
+
+.ico::after{
+	position: absolute;
+	content: "";
+	display: block;
+	height: 206px;
+	width: 252px;
+	background: #FCC302;
+	top: 260px;
+	left: -30px;
+	z-index: -1;
+
 }
 
 
