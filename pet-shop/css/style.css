@@ -7,6 +7,11 @@ body{
 	font-family: 'Poppins', sans-serif;
 }
 
+img{
+	display: block;
+	max-width: 100%;
+}
+
 .checkbtn{
 	font-size: 30px;
 	color: white;
@@ -42,6 +47,7 @@ header{
 
 .menu ul li a{
 	color: white;
+	margin-right: 10px;
 	line-height: 80px;
 	text-transform: uppercase;
 	padding-right: 25px;
@@ -53,8 +59,69 @@ header{
 }
 
 .menu ul li a:hover {
-	background: #FCC302;
+	background: #00BEC9;
 }
+
+/*INTRO*/
+
+.group-1{
+	background: #FCC302;
+	height: 600px;
+}
+
+.intro h1{
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 60px;
+	margin-top: 120px;
+	color: white;
+}
+
+.intro p{
+	color: white;
+	font-size: 20px;
+	line-height: 20px;
+	padding: 30px 0 80px 0;
+}
+
+.intro a{
+	margin-right: 30px;
+	padding: 15px 25px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+}
+
+.btn{
+	border: 3px solid white;
+	transition: 0.5s;
+}
+
+.btn:hover{
+	border-color: #00BEC9;
+}
+
+.btn-azul{
+	background: #00BEC9;
+	border: 3px solid #00BEC9;
+	transition: 0.5s;
+}
+
+.btn-azul:hover{
+	background: #008b92;
+	border-color: #008b92;
+}
+
+.group-1 .grid-6{
+	position: relative;
+}
+
+
+.intro-img{
+	position: absolute;
+	top: 60px;
+}
+
 
 
 
@@ -95,6 +162,8 @@ header{
 
 	#check:checked ~ .menu ul{
 		left: 0;
+		z-index: 5;
+		transition: all 0.5s;
 	}
 }
 
