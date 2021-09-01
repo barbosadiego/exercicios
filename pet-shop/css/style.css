@@ -19,8 +19,7 @@ header{
 
 .menu ul li{
 	float: right;
-	display: inline-block;
-	
+	display: inline;
 }
 
 .menu ul li a{
