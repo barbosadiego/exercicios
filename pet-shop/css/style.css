@@ -88,14 +88,23 @@ header{
 	height: 120px;
 }
 
-header ul{
+header ul {
 	margin-top: 40px;
 	text-align: center;
 }
 
+
 header ul li{
 	display: inline;
 	padding-right: 25px;
+}
+
+header ul li a{
+	line-height: 35px;
+	font-size: 25px;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: white;
 }
 
 .pesquisa{
@@ -110,11 +119,4 @@ header ul li{
 	outline: none;
 	color: white;
 	width: 80%;
-}
-
-header ul li a{
-	line-height: 35px;
-	font-size: 25px;
-	text-transform: capitalize;
-	color: white;
 }
