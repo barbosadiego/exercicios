@@ -314,6 +314,35 @@ header{
 	margin: 20px auto 0 auto;
 }
 
+/*GROUP-7*/
+
+.group-7{
+	background: url(../img/Image-1.png) no-repeat;
+	height: 100%;
+	padding: 140px 0;
+	text-align: center;
+	color: white;
+}
+
+.group-7 ul li img{
+	margin: 30px auto 30px auto;
+}
+
+.group-7 span{
+	font-size: 41px;
+	font-weight: 600;
+	line-height: 50px;
+}
+
+.group-7 p{
+	font-size: 38px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+
+
+
 
 /*MENU-RESPONSIVO*/
 
