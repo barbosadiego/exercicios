@@ -1,0 +1,86 @@
+/*TABLETS*/
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+    h3{
+        font-size: 30px;
+        line-height: 28px;
+        padding: 50px 30px 20px 0;
+    }
+
+    .group-1{
+        height: 480px;
+    }
+
+    .intro h1{
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 80px;
+    }
+
+    .group-2{
+        padding: 100px 0;
+    }
+
+    .group-2 h3{
+        font-size: 30px;
+        line-height: 28px;
+        padding: 50px 30px 20px 0;
+    }
+
+    .ico::after{
+        top: 170px;
+    }
+
+    .group-3{
+        padding: 100px 0;
+    }
+
+    .group-3 h4{
+        font-size: 25px;
+    }
+
+    .group-4{
+        padding: 100px 0;
+    }
+
+    .group-4 .ico::after{
+        top: 170px;
+        left: 140px;
+    }
+
+    .group-5{
+        padding: 100px 0;
+    }
+
+    .group-5 span{
+        font-size: 35px;
+    }
+
+    .group-5 .btn-azul{
+        width: 80%;
+    }
+	
+    .group-6{
+        padding: 100px 0;
+    }
+
+    .group-7{
+        padding-top: 150px;
+    }
+
+    .group-7 span, .group-7 p{
+        font-size: 30px;
+    }
+
+    .social input{
+        width: 364px;
+    }
+}
+
+
+/*SMARTPHONES*/
+
+@media only screen and (max-width: 787px){
+	
+}
