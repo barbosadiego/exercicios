@@ -391,6 +391,72 @@ header{
 	color: #00BEC9;
 }
 
+/*FOOTER*/
+
+footer{
+	padding: 140px 0;
+	background: #343434;
+	color: white;
+}
+
+footer h4{
+	font-size: 35px;
+	font-weight: 500;
+	text-transform: capitalize;
+	padding-bottom: 20px;
+}
+
+footer a{
+	color: white;
+	line-height: 35px;
+}
+
+.social{
+	text-align: right;
+}
+
+.social p{
+	padding-bottom: 20px;
+}
+
+.social input{
+	height: 60px;
+	width: 380px;
+	background: linear-gradient(90deg, #DAAC00 80%, #00BEC9 20%);
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+}
+
+.social input:focus{
+	background: #DAAC00;
+}
+
+.send::after{
+	display: block;
+	content: "";
+	background: url(../img/send.png) no-repeat;
+	height: 33px;
+	width: 33px;
+	position: relative;
+	top: -47px;
+	left: 405px;
+}
+
+.send:focus{
+	display: none;
+}
+
+.social ul li {
+	display: inline;
+	float: right;
+	padding-right: 15px;
+}
+
+.social ul li:first-child{
+	padding-right: 0;
+}
+
 
 
 
