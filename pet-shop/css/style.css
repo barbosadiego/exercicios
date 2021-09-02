@@ -317,8 +317,8 @@ header{
 /*GROUP-7*/
 
 .group-7{
-	background: url(../img/Image-1.png) no-repeat;
-	height: 100%;
+	background: url(../img/Image-1.png) no-repeat center;
+	height: 575px;
 	padding: 140px 0;
 	text-align: center;
 	color: white;
@@ -422,29 +422,16 @@ footer a{
 .social input{
 	height: 60px;
 	width: 380px;
-	background: linear-gradient(90deg, #DAAC00 80%, #00BEC9 20%);
+	background: #DAAC00;
 	border: none;
 	outline: none;
 	padding: 10px 20px;
+	right: 0px;
+	margin-bottom: 25px;
 }
 
-.social input:focus{
-	background: #DAAC00;
-}
-
-.send::after{
-	display: block;
-	content: "";
-	background: url(../img/send.png) no-repeat;
-	height: 33px;
-	width: 33px;
-	position: relative;
-	top: -47px;
-	left: 405px;
-}
-
-.send:focus{
-	display: none;
+.social input::placeholder{
+	color: #fff;
 }
 
 .social ul li {
