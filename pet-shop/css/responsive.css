@@ -2,6 +2,10 @@
 
 @media only screen and (min-width: 788px) and (max-width: 979px) {
 
+    .navbar{
+        width: 768px;
+    }
+
     h3{
         font-size: 30px;
         line-height: 28px;
@@ -82,5 +86,33 @@
 /*SMARTPHONES*/
 
 @media only screen and (max-width: 787px){
-	
+
+    
+
+    .hamburguer{
+        display: block;
+        top: 0px;
+        left: 0px;
+        z-index: 99;
+    }
+
+    
+
+	header{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        z-index: 99;
+    
+    }
+
+   
+
+    
+
+
+
+   
 }
