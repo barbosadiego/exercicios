@@ -451,6 +451,14 @@ footer a{
 /*MENU-RESPONSIVO*/
 
 @media only screen and (max-width:787px) {
+
+	nav{
+		position: sticky;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+	}
+	
 	.checkbtn{
 		display: block;
 	}
@@ -479,12 +487,14 @@ footer a{
 	.menu ul li a{
 		font-size: 22px;
 		font-weight: bold;
+		text-align: left;
 	}
 
 	#check:checked ~ .menu ul{
 		left: 0;
 		z-index: 5;
 		transition: all 0.5s;
+		height: 100%;
 	}
 }
 
