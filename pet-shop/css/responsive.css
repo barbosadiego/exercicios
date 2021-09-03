@@ -212,6 +212,28 @@
         font-size: 17px;
         padding-bottom: 20px;
     }
+
+    .group-7{
+        padding: 0;
+    }
+
+    .group-7 ul li{
+        padding: 20px 0;
+    }
+
+    .group-7 ul li:first-child{
+        margin-top: 30px;
+    }
+
+    .group-7 ul li img{
+        width: 50px;
+        margin: 0 auto;
+    }
+
+    .group-7 ul li span, .group-7 ul li p{
+        font-size: 25px;
+        padding: 0;
+    }
    
 
 
