@@ -192,7 +192,26 @@
         margin: 0 0 50px 0;
     }
 
+    .group-5 .grid-16 p{
+        padding: 0;
+    }
 
+    .group-5, .group-6{
+        padding: 50px 0;
+    }
+
+    .group-5 span{
+        margin: 20px 0;
+    }
+
+    .group-5 img{
+      margin-top: 40px;
+    }
+
+    .group-6 .grid-16 p{
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
    
 
 
@@ -208,12 +227,6 @@
 
 
 
-
-
-
-    .group-4 .ico::after{
-        left: 10px;
-    }
 
     .social input{
         width: 100%;
