@@ -87,17 +87,6 @@
 
 @media only screen and (max-width: 787px){
 
-    
-
-    .hamburguer{
-        display: block;
-        top: 0px;
-        left: 0px;
-        z-index: 99;
-    }
-
-    
-
 	header{
         width: 100%;
         position: fixed;
