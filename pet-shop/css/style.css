@@ -118,8 +118,10 @@ header{
 /*GROUP-1*/
 
 .group-1{
+	position: relative;
 	background: #FCC302;
 	height: 600px;
+	top: 80px;
 }
 
 .intro h1{

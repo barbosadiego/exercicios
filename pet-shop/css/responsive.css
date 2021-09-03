@@ -110,6 +110,10 @@
         display: none;
     }
 
+    .group-1{
+        top: 0;
+    }
+
     .group-1 .intro h1{
         font-size: 29px;
         line-height: 25px;
