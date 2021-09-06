@@ -1,0 +1,36 @@
+body{
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+}
+
+.container{
+    display: flex;
+    max-width: 360px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.item{
+    flex: 1;
+    background: tomato;
+    margin: 5px;
+    text-align: center;
+}
+
+.row-nowrap{
+    flex-flow: row nowrap;
+}
+
+.row-wrap{
+    flex-flow: row wrap;
+}
+
+.column-nowrap{
+    flex-flow: column nowrap;
+}
