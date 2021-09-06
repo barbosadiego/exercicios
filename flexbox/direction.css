@@ -35,7 +35,7 @@ h1{
 }
 
 .item{
-    flex: 1;
+    flex: 1; /*necessário para cada item ocupar a largura do container por completo*/
     margin: 5px;
     background: tomato;
     text-align: center;
