@@ -18,4 +18,63 @@
 
 body{
     font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    background: var(--azulesc);
+    display: flex;
+    padding: 10px calc((100% - 960px) / 2);
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header a, header p{
+    color: white;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav{
+    background: var(--azulcla);
+    padding: 30px calc((100% - 960px) / 2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+    align-items: center;   
+}
+
+nav a{
+    color: white;
+    padding: 0px 10px;
+}
+
+.logo{
+    font-size: 3rem;
+    font-weight: bold ;
+}
+
+.menu a{
+    font-size: 1.65rem;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro{
+    padding: 50px 0;
 }
