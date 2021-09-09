@@ -348,3 +348,24 @@ nav ul{
         font-size: 1.5rem;
     }
 }
+
+footer{
+    background: var(--azulcla);
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width:800px){
+    footer{
+        padding: 25px 0;
+    }
+
+    footer p{
+        font-size: 1rem;
+    }
+}
