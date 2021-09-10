@@ -214,6 +214,7 @@ nav a:hover{
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0px;
+    left: 0px;
 }
 
 .intro-group-4 {
@@ -221,16 +222,10 @@ nav a:hover{
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
-    z-index: 10;
 }
 
 .intro-group-4 h2{
     font-size: 2rem;
     text-transform: uppercase;
+    z-index: 10;
 }
-
-.group-4 .lista{
-    display: flex;
-    flex-wrap: wrap;
-}
-
