@@ -110,7 +110,7 @@ nav a:hover{
 .intro h1{
     color: white;
     font-size: 11rem;
-    flex: 0;
+    flex: 0 1 auto;
     font-weight: 900;
     text-transform: uppercase;
     z-index: 10;
@@ -143,13 +143,55 @@ nav a:hover{
 
 @media screen and (max-width: 650px) {
     .intro{
-        background: url(../img/mobile-bg.jpg) no-repeat center;
+        background: url(../img/mobile-bg.jpg) no-repeat top;
+        height: 800px;
     }
 
     .intro h1{
         font-size: 5rem;
+        margin-top: 200px;
     }
 }
 
+/*quem somos - group 2*/
+
+.quem-somos{
+    background: var(--preto);
+    color: var(--azul);
+    padding: 80px calc((100% - 1140px) /2);
+    text-align: center;
+}
+
+.quem-somos h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.quem-somos p{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+}
 
 
+/*qualidade*/
+
+.qualidades{
+    background: var(--cinza);
+    color: white;
+    padding: 80px calc((100% - 1140px) /2);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qualidades .item{
+    flex: 1 1 260px;
+    margin: 30px;
+}
+
+.qualidades h3{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
