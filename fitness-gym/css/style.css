@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+:root{
+    --azul: #3EA2D8;
+    --preto: #0C0C0C;
+    --cinza: #222222; 
+}
