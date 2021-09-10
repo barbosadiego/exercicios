@@ -171,7 +171,7 @@ nav a:hover{
 .quem-somos p{
     max-width: 600px;
     margin: 0 auto;
-    padding: 25px;
+    padding: 25px 25px 0 25px;
 }
 
 
@@ -190,6 +190,14 @@ nav a:hover{
     margin: 30px;
 }
 
+.qualidades .item:first-child{
+    margin-top: 0px;
+}
+
+.qualidades .item:last-child{
+    margin-bottom: 0px;
+}
+
 .qualidades h3{
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -201,31 +209,54 @@ nav a:hover{
 .group-4{
     background: url(../img/group4.jpg) no-repeat top;
     background-size: cover;
-    height: 975px;
-    position: relative;
-    padding: 80px calc((100% - 1140px) / 2);
-}
-
-.group-4::after{
-    display: block;
-    content: "";
-    width: 100%;
-    height: 975px;
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    padding: 80px calc((100% - 1140px) / 2); 
 }
 
 .intro-group-4 {
-    color: var(--azul);
-    max-width: 800px;
-    text-align: center;
+    max-width: 80%;
     margin: 0 auto;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .intro-group-4 h2{
     font-size: 2rem;
     text-transform: uppercase;
-    z-index: 10;
+}
+
+.group-4 .lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.group-4 .lista h4{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.group-4 .lista p{
+    margin-bottom: 25px;
+}
+
+.group-4 .lista span{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.group-4 .lista h5{
+    text-transform: capitalize;
+}
+
+.group-4 .lista li{
+    flex: 0 2 290px;
+    background-color: var(--cinza);
+    padding: 40px 30px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 3px;
 }
