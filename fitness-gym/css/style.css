@@ -4,6 +4,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    transition: .5s;
 }
 
 body{
@@ -42,6 +43,7 @@ header{
     width: 100%;
     position: absolute;
     top: 50px;
+    z-index: 10;
 }
 
 nav{
@@ -64,39 +66,23 @@ nav a{
     font-size: 1.25rem;
     text-transform: uppercase;
     font-weight: 600;
-    margin-right: 20px;
     padding: 10px;
 }
 
-@media screen and (max-width: 800px) {
+nav a:hover{
+    background-color: #3EA2D8;
+    border-radius: 4px; 
+}
+
+@media screen and (max-width: 650px) {
     header{
         top: 0px;
     }
 
-    .checkbtn{
-        display: block;
-    }
-
-    nav ul{
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        display: block;
-        
-    }
-
-    nav ul li a{
-        margin-top: 50px;
+    nav a{
+        font-size: 1rem;
     }
 }
-
-
-
-
-
-
-
-
 
 /*intro*/
 
@@ -104,5 +90,66 @@ nav a{
     background: url(../img/1.jpg) no-repeat top;
     background-size: cover;
     height: 975px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
 }
+
+.intro::after{
+    display: block;
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    height: 975px;
+}
+
+.intro h1{
+    color: white;
+    font-size: 11rem;
+    flex: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    z-index: 10;
+}
+
+.intro p{
+   color: white;
+   z-index: 10;
+   text-align: center;
+   max-width: 800px;
+   padding: 25px;
+}
+
+.intro a{
+    color: var(--azul);
+    z-index: 10;
+    background-color: white;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.intro a:hover{
+    background-color: var(--azul);
+    color: white;
+}
+
+
+@media screen and (max-width: 650px) {
+    .intro{
+        background: url(../img/mobile-bg.jpg) no-repeat center;
+    }
+
+    .intro h1{
+        font-size: 5rem;
+    }
+}
+
+
+
