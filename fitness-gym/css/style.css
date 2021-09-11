@@ -190,18 +190,20 @@ nav a:hover{
     margin: 30px;
 }
 
-.qualidades .item:first-child{
-    margin-top: 0px;
-}
-
-.qualidades .item:last-child{
-    margin-bottom: 0px;
-}
-
 .qualidades h3{
     font-size: 1.2rem;
     text-transform: uppercase;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 620px) {
+    .qualidades .item:first-child{
+        margin-top: 0px;
+    }
+    
+    .qualidades .item:last-child{
+        margin-bottom: 0px;
+    }
 }
 
 /*group 4*/
