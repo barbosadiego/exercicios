@@ -527,3 +527,89 @@ nav a{
 .group-11 h3{
     color: white;
 }
+
+/*footer*/
+
+.rodape{
+    background-color: var(--cinza);
+    padding: 80px calc((100% - 1140px)/2);
+    color: white;
+}
+
+.rodape a{
+    color: white;
+}
+
+.rodape .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.rodape .about{
+    flex: 3 1 350px;
+    padding: 0px 10px 10px 10px;
+}
+
+.rodape .about h3{
+    padding-bottom: 30px;
+} 
+
+.rodape .about p{
+    max-width: 250px;
+}
+
+.rodape .item h3{
+    padding: 30px 0px;
+}
+
+.rodape .about p{
+    margin-bottom: 30px;
+}
+
+.rodape .item{
+    flex: 1 1 190px;
+}
+
+.rodape .social{
+    display: flex;
+}
+
+.rodape .social li {
+    margin-right: 20px;
+}
+
+.rodape .item ul li {
+    padding: 10px 0px;
+}
+
+.faixa{
+    height: 20px;
+    width: 100%;
+    background-color: var(--azul);
+}
+
+@media screen and (max-width: 800px) {
+    .rodape{
+        text-align: center;
+    }
+
+    .rodape .about{
+        margin-bottom: 40px;
+    }
+
+    .rodape .social{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape .social li:last-child{
+        margin-right: 0px;
+    }
+
+    .rodape .about p{
+        margin: 20px auto;
+
+    }
+}
