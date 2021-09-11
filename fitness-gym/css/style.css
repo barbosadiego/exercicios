@@ -255,7 +255,7 @@ nav a:hover{
 }
 
 .group-4 .lista li{
-    flex: 0 2 290px;
+    flex: 0 0 290px;
     background-color: var(--cinza);
     padding: 40px 30px;
     margin: 10px;
@@ -275,7 +275,6 @@ nav a:hover{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
     justify-content: center;
 }
 
@@ -293,6 +292,7 @@ nav a:hover{
 .intro-group-5 p{
     max-width: 650px;
     font-size: 1.25rem;
+    padding: 0px 10px;
 }
 
 .intro-group-5 span{
@@ -303,7 +303,7 @@ nav a:hover{
 .icone-group-5{
     display: flex;
     flex-wrap: wrap;
-    color: var(--azul);
+    color: white;
     align-items: center;
     padding-top: 80px;
 }
@@ -317,3 +317,29 @@ nav a:hover{
 
 }
 
+.icone-group-5 h4{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.icone-group-5 h5{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+/*group 6*/
+
+.group-6{
+    background: var(--cinza);
+    padding: 80px calc((100% - 1140px) / 2);
+    text-align: center;
+    color: var(--azul);
+}
+
+.group-6 p{
+    max-width: 600px;
+    padding: 0 10px;
+    margin: 0 auto 30px auto;
+}
