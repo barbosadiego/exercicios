@@ -260,3 +260,7 @@ nav a:hover{
     text-align: center;
     border-radius: 3px;
 }
+
+.group-4 .lista li:hover{
+    box-shadow: 0px 0px 10px var(--azul);
+}
