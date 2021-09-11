@@ -462,10 +462,11 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
 }
 
 .group-9 .info li{
-    flex: 1 1 550px;
+    flex: 1 1 500px;
     padding: 50px;
     text-align: center;
 }
@@ -484,7 +485,7 @@ nav a{
     margin-bottom: 30px;
 }
 
-@media screen and (max-width:1099px) {
+@media screen and (max-width:999px) {
     .group-9 .info li:nth-child(3), .group-9 .info li:nth-child(4){
         order: -2;
     }
