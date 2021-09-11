@@ -493,3 +493,25 @@ nav a{
         order: -1;
     }
 }
+
+/*group 10*/
+
+.group-10 {
+    padding: 80px calc((100% - 1140px)/2);
+    background-color: var(--cinza);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-10 .item{
+    flex: 1 1 350px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.group-10 .item h4{
+    font-size: 1.2rem;
+}
