@@ -448,3 +448,48 @@ nav a:hover{
         text-align: center;
     }
 }
+
+
+/*group 9*/
+
+.group-9{
+    background: var(--preto);
+    padding: 80px calc((100% - 1440px) / 2);
+    color: white;
+}
+
+.group-9 .info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.group-9 .info li{
+    flex: 1 1 550px;
+    padding: 50px;
+    text-align: center;
+}
+
+.group-9 .info li img{
+    margin: 0 auto;
+}
+
+.group-9 .info li span{
+    display: block;
+    margin: 10px;
+}
+
+.group-9 .info li h3{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:1099px) {
+    .group-9 .info li:nth-child(3), .group-9 .info li:nth-child(4){
+        order: -2;
+    }
+
+    .group-9 .info li:nth-child(3){
+        order: -1;
+    }
+}
