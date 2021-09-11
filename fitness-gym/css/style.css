@@ -383,3 +383,68 @@ nav a:hover{
 .group-7 .img img{
     width: 100%;
 }
+
+/*group 8*/
+
+.group-8{
+    background: url(../img/Imsge.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px calc((100% - 1440px) / 2);
+}
+
+.group-8 a{
+    color: var(--azul);
+    font-weight: bold;
+    padding: 12px 35px;
+    background: white;
+    border-radius: 30px;
+    margin: 50px 100px 50px 0px;
+}
+
+.group-8 a:hover{
+    color: white;
+    background: var(--azul);
+}
+
+.group-8 .cta-8{
+    padding-right: 100px;
+}
+
+.group-8 .cta-8 h2{
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: right;
+    padding: 50px 10px 30px 0px;
+}
+
+.group-8 .cta-8 p{
+    max-width: 300px;
+    text-align: right;
+    color: white;
+    font-weight: 500;
+    margin: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .group-8{
+        align-items: center;
+    }
+
+    .group-8, .group-8 .cta-8 {
+        padding-right: 0px;
+    }
+
+    .group-8 a{
+        margin-right: 0px;
+    }
+
+    .group-8 .cta-8 h2, .group-8 .cta-8 p{
+        text-align: center;
+    }
+}
