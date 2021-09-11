@@ -343,3 +343,43 @@ nav a:hover{
     padding: 0 10px;
     margin: 0 auto 30px auto;
 }
+
+/*group 7*/
+
+.group-7 .quote{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: var(--preto);
+}
+
+.group-7 .content{
+    flex: 1 1 320px;
+    color: var(--azul);
+    padding: 80px 30px 80px 100px;
+}
+
+@media screen and (max-width:800px) {
+    .group-7 .content{
+        padding: 80px 10px;
+        text-align: center;
+    }
+}
+
+.group-7 .content h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.group-7 .content p{
+    max-width: 600px;
+}
+
+.group-7 .img{
+    flex: 1 1 320px;
+}
+
+.group-7 .img img{
+    width: 100%;
+}
