@@ -266,3 +266,54 @@ nav a:hover{
 .group-4 .lista li:hover{
     box-shadow: 0px 0px 10px var(--azul);
 }
+
+/*group 5*/
+
+.group-5{
+    background: var(--preto);
+    padding: 80px calc((100% - 1140px) / 2);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.intro-group-5, .intro-group-5 p, .intro-group-5 span, .intro-group-5 h2{
+    color: var(--azul);
+}
+
+.intro-group-5 h2{
+    flex: 3;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 0px 10px 30px 10px;
+}
+
+.intro-group-5 p{
+    max-width: 650px;
+    font-size: 1.25rem;
+}
+
+.intro-group-5 span{
+    display: inline-block;
+    margin: 50px 15px 0 0 ;
+}
+
+.icone-group-5{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--azul);
+    align-items: center;
+    padding-top: 80px;
+}
+
+.icone-group-5 li{
+    flex: 1 1 300px;
+}
+
+.icone-group-5 li img{
+    margin: 50px auto;
+
+}
+
