@@ -12,6 +12,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+a{
+    color: black;
+}
+
 :root{
     --amarelo:#FFBA00;
     --cinza:#242424;
@@ -19,4 +23,60 @@ body{
 
     --fonte-padrao: 'Montserrat', sans-serif;
     --fonte-destaque: 'Lato, sans-serif';
+}
+
+/*group 1*/
+
+#btn-mobile{
+    display: none;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px calc((100% - 1160px) / 2);
+    position: relative;
+    top: 20px;
+    z-index: 10;
+}
+
+#logo{
+    font-size: 2.15rem;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px 30px 100px;
+    background: var(--amarelo);
+}
+
+#menu{
+    display: flex;
+    gap: 1rem;
+}
+
+#menu a{
+    font-size: 1.15rem;
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 10px;
+    color: white;
+}
+
+#menu li:last-child{
+    margin-right: 10px;
+}
+
+/*intro*/
+
+.intro{
+    background: url(img/hero.jpg) no-repeat center;
+    background-size: cover;
+    height: 961px;
+    
+    position: relative;
+    top: -80px;
 }
