@@ -22,7 +22,7 @@ a{
     --cinza-amarelado: #483500;
 
     --fonte-padrao: 'Montserrat', sans-serif;
-    --fonte-destaque: 'Lato, sans-serif';
+    --fonte-destaque: 'Lato', sans-serif;
 }
 
 /*group 1*/
@@ -39,8 +39,9 @@ header{
     justify-content: space-between;
     padding: 0px calc((100% - 1160px) / 2);
     position: relative;
-    top: 20px;
+    top: 40px;
     z-index: 10;
+    background-image: linear-gradient( to right, #ffba00 30%, rgba(255,255,255,0) 10%);
 }
 
 #logo{
@@ -48,7 +49,7 @@ header{
     font-family: var(--fonte-padrao);
     font-weight: bold;
     color: white;
-    padding: 10px 20px 30px 100px;
+    padding: 10px 20px 28px 100px;
     background: var(--amarelo);
 }
 
@@ -70,13 +71,98 @@ header{
     margin-right: 10px;
 }
 
+@media screen and (max-width:690px) {
+
+    header{
+        top: 0px;
+        background-image: none;
+    }
+
+    #logo{
+        font-size: 1.5rem;
+        padding-left: 40px;
+    }
+
+    #btn-mobile{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px 0px;
+        padding: .5rem;
+        cursor: pointer;
+        font-size: 1 rem;
+        border: none;
+        color: white;
+        background: none;
+        gap: .5rem;
+    
+    }
+
+    #hamburguer{
+        width: 30px;
+        border-top: 4px solid white;
+        color: white;
+        margin-right: 20px;
+    }
+
+    #hamburguer::after, #hamburguer::before{
+        content: "";
+        width: 30px;
+        height: 4px;
+        background: currentColor;
+        display: block;
+        margin-top: 5px;
+        transition: .5s;
+        position: relative;
+    }
+
+    #nav.active #hamburguer{
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburguer::before{
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburguer::after{
+        transform: rotate(-135deg);
+        top: -9px;
+    }
+
+    #menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 75px;
+        right: 0px;
+        background-color: var(--cinza-amarelado);
+        height: 0px;
+        z-index: 1000;
+        transition: .5s;
+        overflow-y: hidden;
+        visibility: hidden;
+    }
+
+    #nav.active #menu{
+        height: 100vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu li a{
+        display: block;
+        padding: 1rem 0;
+        margin: 10px 2rem;
+        border-bottom: 1px solid white;
+        text-align: center;
+    }
+}
+
 /*intro*/
 
 .intro{
     background: url(img/hero.jpg) no-repeat center;
     background-size: cover;
     height: 961px;
-    
     position: relative;
     top: -80px;
 }
