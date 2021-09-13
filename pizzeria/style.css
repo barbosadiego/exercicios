@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+}
+       
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --amarelo:#FFBA00;
+    --cinza:#242424;
+    --cinza-amarelado: #483500;
+
+    --fonte-padrao: 'Montserrat', sans-serif;
+    --fonte-destaque: 'Lato, sans-serif';
+}
