@@ -11,10 +11,11 @@
     <title>FitNess Gym</title>
 </head>
 <body>
-    <header>   
-        <nav>
-            <a href="#"><img src="img/Logo.svg" alt="logo fitness gym"></a>
-            <ul class="nav">
+    <header id="header">   
+        <a id="logo" href="#"><img src="img/Logo.svg" alt="logo fitness gym"></a>
+        <nav id="nav">
+            <button id="btn-mobile">Menu<span id="hamburguer"></span></button>
+            <ul id="menu">
                 <li><a href="#">home</a></li>
                 <li><a href="#about">about</a></li>
                 <li><a href="#shop">shop</a></li>
@@ -22,13 +23,12 @@
             </ul>
         </nav>
     </header>
-    
     <section class="intro">
         <h1>sport</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, cupiditate voluptas quas cum similique facilis deserunt! Voluptas consequuntur aut.</p>
         <a class="btn" href="#">READ MORE</a>
     </section>
-    <section class="quem-somos">
+    <section class="quem-somos" id="about">
         <div>
             <h2>who are we?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ut laboriosam mollitia suscipit velit nesciunt aliquid aut culpa assumenda perferendis? Tempora numquam consequatur illo eum laboriosam iste voluptatum quae corporis!</p>
@@ -143,7 +143,7 @@
         </div>
         
     </section>
-    <section class="group-8">
+    <section class="group-8" id="shop">
         <div class="cta-8">
             <h2>buy your<br>tickets</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero numquam sit voluptatum consequuntur!</p>
@@ -197,7 +197,7 @@
         <h3>David Johnson</h3>
     </section>
     
-    <footer class="rodape">
+    <footer class="rodape" id="contact">
         <div class="container">
             <div class="about">
                 <h3>ABOUT</h3>
@@ -240,5 +240,6 @@
         </div>
     </footer>
     <div class="faixa"></div>
+    <script src="js/menu-mobile.js"></script>
 </body>
 </html>
