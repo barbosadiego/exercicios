@@ -182,8 +182,8 @@ header{
     background: var(--amarelo);
     height: 270px;
     width: 100%;
-    position: relative;
-    top: -680px;
+    position: absolute;
+    top: 280px;
 }
 
 .intro h1{
@@ -205,8 +205,10 @@ header{
 
 .group-1 a{
     position: relative;
+    display: inline-block;
     z-index: 100;
-    top: 100px;
+    top: 10px;
+    left: 50px;
     font-size: 2.40rem;
     text-transform: uppercase;
     background-color: var(--amarelo);
@@ -234,11 +236,17 @@ header{
     }
 
     .group-1 .intro h1, .group-1 .intro span{
+        padding: 0px 20px;
         font-size: 4rem;
         z-index: 0;
     }
 
     .group-1 a{
+        margin: 0px 10px;
         z-index: 0;
+        left: 0px;
     }
 }
+
+/* -------GROUP 2---------*/
+
