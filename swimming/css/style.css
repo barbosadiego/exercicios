@@ -25,7 +25,6 @@ img{
 /*---------MENU---------*/
 
 #header{
-    height: 130px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -38,32 +37,29 @@ img{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     color: #4073DE ;
-    padding: 30px 0px;
+    padding: 30px 15px;
 }
 
-#nav ul{
+#menu{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
 
-#nav ul a{
+#menu a{
     font-size: 1.35rem;
     text-transform: capitalize;
     color: black;
-    padding: 50x;
+    padding: 36px 10px;
+    background-image: linear-gradient(rgba(167,92,249,0), rgba(27,93,210,0));
 }
 
-#nav ul li a{
-    padding: 52px 30px;
-    display: block;
-    transition: .5s;
-}
-
-#nav ul li a:hover{
-    background-image: linear-gradient(#A25CF8, #1B5DD2);
+#menu a:hover{
     color: white;
+    background-image: linear-gradient(rgba(167,92,249,1), rgba(27,93,210,1));
 }
+
+
 
 @media screen and (max-width:950px) {
 
@@ -71,13 +67,10 @@ img{
         padding: 30px;
     }
 
-
-    #nav ul li a:hover{
-        background-image: none;
-    }
-
-    #menu li a{
+    #menu a{
+        display: block;
         color: white;
+        text-align: center;
     }
 
     #btn-mobile{
@@ -123,7 +116,7 @@ img{
         display: block;
         position: absolute;
         width: 100%;
-        top: 130px;
+        top: 97px;
         right: 0px;
         background-color: black;
         height: 0px;
