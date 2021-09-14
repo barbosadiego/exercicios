@@ -131,8 +131,6 @@ img{
         visibility: visible;
         overflow-y: auto;
     }
-
-
 }
 
 /*-------INTRO---------*/
@@ -142,6 +140,62 @@ img{
     background-size: cover;
 }
 
-.intro p{
-    height: 100vh;
+.intro{
+    display: flex;
+    align-items: flex-end;
+    height: 80vh;
+    padding: 80px calc((100% - 1160px) / 2);
+}
+
+/*----------GROUP -2-----------*/
+
+.group-2{
+    padding: 0px calc((100% - 1160px) / 2);
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0px 20px;
+    gap: 1.5rem;
+    color: white;
+    position: relative;
+}
+
+.card-item{
+    flex: 1 1 200px;
+    height: 300px;
+    padding: 10px 20px; 
+    position: relative;
+    top: -110px;
+    border-radius: 3px;
+}
+
+.card-item h2{
+    font-size: 2.7rem;
+}
+
+.card-item p{
+    font-size: 1rem;
+    padding: 10px 40px 0px 0px;
+}
+
+.card-item img{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.card .item-1{
+    background-image: linear-gradient(#FFAF00,#FF8614);
+}
+.card .item-2{
+    background-image: linear-gradient(#B85CFE,#155DD1);
+}
+.card .item-3{
+    background-image: linear-gradient(#FF2F50,#FF1C97);
+}
+.card .item-4{
+    background-image: linear-gradient(#FE14E7,#B61EE0);
 }
