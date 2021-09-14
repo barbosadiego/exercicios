@@ -16,6 +16,11 @@ a{
     color: black;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
+
 :root{
     --amarelo:#FFBA00;
     --cinza:#242424;
@@ -250,3 +255,27 @@ header{
 
 /* -------GROUP 2---------*/
 
+.group-2{
+    background: var(--cinza);
+    padding: 80px calc((100% - 1440px) / 2);
+    position: relative;
+    top: -80px;
+    color: white;
+}
+
+.group-2 .info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.group-2 .info span{
+    position: relative;
+    top: 150px;
+    font-size: 3rem;
+    transform: rotate(-90deg);
+}
+
+
+.group-2 .info .img{
+    
+}
