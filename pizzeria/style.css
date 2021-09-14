@@ -59,9 +59,9 @@ header{
 }
 
 #menu a{
-    font-size: 1.15rem;
+    font-size: 1.35rem;
     font-family: var(--fonte-destaque);
-    font-weight: 400;
+    font-weight: bold;
     text-transform: capitalize;
     padding: 10px;
     color: white;
@@ -159,10 +159,52 @@ header{
 
 /*intro*/
 
-.intro{
+.group-1{
+   
     background: url(img/hero.jpg) no-repeat center;
     background-size: cover;
-    height: 961px;
+    height: 861px;
     position: relative;
     top: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.faixa{
+    background: var(--amarelo);
+    height: 270px;
+    width: 100%;
+    position: relative;
+    top: -680px;
+}
+
+.intro h1{
+    position: relative;
+    color: white;
+    font-size: 9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 100;
+}
+
+.intro span{
+    position: relative;
+    color: white;
+    font-size: 9rem;
+    text-transform: uppercase;
+    z-index: 100;
+}
+
+.group-1 a{
+    position: relative;
+    z-index: 100;
+    top: 100px;
+    font-size: 2.40rem;
+    text-transform: uppercase;
+    background-color: var(--amarelo);
+    padding: 30px 40px;
+    border: 3px solid white;
+    color: white;
 }
