@@ -449,4 +449,56 @@ img{
     font-size: 1.25rem;
 }
 
+/*----------FOOTER------------*/
 
+footer{
+    padding: 0px calc((100% - 1160px) / 2);
+}
+
+footer .footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 10px;
+}
+
+.footer .info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    background-image: linear-gradient(#0099E1, #007BC6);
+    color: white;
+    padding: 20px;
+}
+
+.footer h1{
+    font-size: 3.1rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.footer address{
+    font-size: 1.4rem;
+    font-style: normal;
+    padding-bottom: 30px;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer .tel{
+    font-size: 3rem;
+}
+
+.footer .map{
+    flex: 1;
+}
+
+@media screen and (max-width:800px) {
+    footer .footer{
+        flex-direction: column;
+    }
+}
