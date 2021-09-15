@@ -27,7 +27,7 @@ img{
 header{
     background: url(../img/Header\ Background.jpg) no-repeat center;
     background-size: cover;
-    padding: 30px calc((100% - 1160px) / 2);
+    padding: 0px calc((100% - 1160px) / 2);
 }
 
 .head{
@@ -35,6 +35,10 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+#logo{
+    padding-top: 30px;
 }
 
 .head ul{
@@ -53,6 +57,7 @@ header{
 
 .intro{
     display: flex;
+    align-items: flex-end;
 }
 
 .intro li{
