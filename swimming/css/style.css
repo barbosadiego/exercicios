@@ -269,11 +269,22 @@ img{
     flex: 1 1 400px;
 }
 
+.group-3 .img img{
+    width: 100%;
+}
+
 @media screen and (max-width:825px) {
     .group-3 .trocar{
         order: -1;
     }
+
+    .group-3{
+        gap: 0px;
+    }
 }
+
+
+/*--------GROUP 4-----------*/
 
 .group-4{
     display: flex;
@@ -284,10 +295,6 @@ img{
     padding: 0px calc((100% - 1160px) / 2);
 }
 
-.group-4 .img{
-    display: none;
-}
-
 .group-4 .info{
     flex: 0 0 50%;
     display: flex;
@@ -295,7 +302,7 @@ img{
     color: white;
     background-image: linear-gradient(rgba(230,49,77,0.9), rgba(238,19,144,0.9));
     align-items: center;
-    padding: 80px;
+    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -321,12 +328,65 @@ img{
         padding: 20px;
     }
 
-    .group-4 .img{
-        display: block;
-    }
-
     .group-4 .info h2{
         font-size: 1.2rem;
     }
 }
 
+
+/*---------GROUP 5---------*/
+
+.group-5{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 50px calc((100% - 1160px) / 2);
+    box-sizing: border-box;
+    gap: 1.5rem;
+    color: white;
+}
+
+.group-5 .info{
+    flex: 1 1 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: linear-gradient(#FFBB18, #FF7F00);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.group-5 .info h1{
+    font-size: 2.7rem;
+    text-transform: capitalize;
+}
+
+.group-5 .info li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.group-5 .info li::before{
+    content: "";
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    background: url(../img/Ellipse.png);
+    margin-right: 15px;
+}
+
+.group-5 .img{
+    flex: 1 1 500px;
+}
+
+.group-5 .img img{
+    width: 100%;
+}
+
+@media screen and (max-width:1023px) {
+    .group-5{
+        gap: 0px;
+    }
+}
