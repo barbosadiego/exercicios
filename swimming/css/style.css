@@ -281,6 +281,14 @@ img{
     .group-3{
         gap: 0px;
     }
+
+    .group-3 .info{
+        text-align: center;
+    }
+
+    .group-3 .info a{
+        margin: 20px auto;
+    }
 }
 
 
@@ -299,11 +307,13 @@ img{
     flex: 0 0 50%;
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
     color: white;
     background-image: linear-gradient(rgba(230,49,77,0.9), rgba(238,19,144,0.9));
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
+    gap: 1rem;
 }
 
 .group-4 .info h2{
@@ -321,6 +331,7 @@ img{
 @media screen and (max-width:825px) {
     .group-4{
         background: none;
+        text-align: center;
     }
 
     .group-4 .info{
@@ -330,6 +341,10 @@ img{
 
     .group-4 .info h2{
         font-size: 1.2rem;
+    }
+
+    .group-4 .info a{
+        margin: 20px auto;
     }
 }
 
