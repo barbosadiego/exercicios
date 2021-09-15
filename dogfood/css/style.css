@@ -4,4 +4,57 @@
     text-decoration: none;
     margin: 0px;
     padding: 0px;
+    font-size: 16px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+:root{
+    --cinza: #452A31;
+    --amarelo: #FFCC4C;
+    --azul: #0976AB;
+    --fonte-padrao: 'Montserrat', sans-serif;  
+    --fonte-destaque: 'Amatic SC', cursive, sans-serif;
+}
+
+/*---------HEADER--------*/
+
+header{
+    background: url(../img/Header\ Background.jpg) no-repeat center;
+    background-size: cover;
+    padding: 30px calc((100% - 1160px) / 2);
+}
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.head ul a{
+    text-transform: uppercase;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    color: white;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.intro{
+    display: flex;
+}
+
+.intro li{
+    flex: 1 1 200px;
 }
