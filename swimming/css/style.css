@@ -503,8 +503,17 @@ footer .footer{
     flex: 1;
 }
 
+footer .copy{
+    text-align: center;
+    padding: 40px 0px;
+}
+
 @media screen and (max-width:800px) {
     footer .footer{
         flex-direction: column;
+    }
+
+    .footer .tel{
+        font-size: 2rem;
     }
 }
