@@ -6,6 +6,7 @@
     text-decoration: none;
     list-style: none;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 body{
@@ -405,3 +406,47 @@ img{
         gap: 0px;
     }
 }
+
+/*----------GROUP 6-----------*/
+
+.group-6{
+    padding: 50px calc((100% - 1160px) /2);
+}
+
+.group-6 .testemonial{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.group-6 .item{
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 10px;
+    background: #F3F3F3;
+}
+
+.group-6 .item img{
+    height: 122px;
+    width: 122px;
+    position: relative;
+    top: -80px;
+}
+
+.group-6 .item p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    position: relative;
+    top: -50px;
+}
+
+.group-6 .item span{
+    color: #FF6300;
+    font-size: 1.25rem;
+}
+
+
