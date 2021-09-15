@@ -493,6 +493,12 @@ footer .footer{
     font-size: 3rem;
 }
 
+.footer .icom{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
 .footer .map{
     flex: 1;
 }
