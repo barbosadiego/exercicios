@@ -24,6 +24,10 @@ img{
 
 /*---------HEADER--------*/
 
+#btn-mobile{
+    display: none;
+}
+
 header{
     background: url(../img/Header\ Background.jpg) no-repeat center;
     background-size: cover;
@@ -35,14 +39,13 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 10px;
 }
 
-#logo{
-    padding-top: 30px;
-}
 
 .head ul{
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
@@ -60,6 +63,104 @@ header{
     align-items: flex-end;
 }
 
+.intro .img:first-child{
+    position: relative;
+    bottom: -50px;
+}
+
 .intro li{
     flex: 1 1 200px;
+}
+
+header h1{
+    padding-bottom: 30px;
+}
+
+header h1, header span{
+    font-family: var(--fonte-destaque);
+    font-size: 2.56rem;
+    text-align: center;
+}
+
+header span{
+    color: var(--azul);
+}
+
+@media screen and (max-width:899px) {
+    .intro .img:first-child{
+        bottom: 0px;
+    }
+
+    #btn-mobile{
+        display: flex;
+        margin: 5px;
+        padding: .6rem;
+        cursor: pointer;
+        border: none;
+        background: transparent;
+        gap: .5rem;
+    }
+
+    #hamburguer{
+        width: 30px;
+        border-top: 4px solid var(--cinza);
+        color: var(--cinza);
+    }
+
+    #hamburguer::after, #hamburguer::before{
+        content: "";
+        width: 30px;
+        height: 4px;
+        background: currentColor;
+        display: block;
+        margin-top: 5px;
+        position: relative;
+        transition: .3s;
+    }
+
+    #nav.active #hamburguer{
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburguer::after{
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburguer::before{
+        transform: rotate(-135deg);
+        top: 9px;
+    }
+
+    #menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 120px;
+        right: 0px;
+        background-color: var(--cinza);
+        height: 0px;
+        z-index: 100;
+        transition: .5s;
+        overflow-y: hidden;
+        visibility: hidden;
+    }
+
+    #nav.active #menu{
+        height: 100vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a{
+        display: block;
+        padding: 1rem 0px;
+        margin: 20px 2rem;
+        border-bottom: 1px solid white;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #logo{
+        width: 80%;
+    }
 }
