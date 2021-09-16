@@ -239,5 +239,33 @@ header span{
     }
 }
 
+/*-----------GROUP 3------------*/
+
+.group-3{
+    padding: 80px calc((100% - 1160px) / 2);
+    text-align: center;
+    background: url(../img/chicken-2.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    z-index: -2;
+}
+
+.group-3 h1{
+    font-family: var(--fonte-destaque);
+    font-size: 3rem;
+    line-height: 60px;
+}
+
+.group-3 span{
+    display: block;
+    font-size: 5rem;
+    padding-bottom: 30px;
+}
+
+.group-3 p{
+    max-width: 900px;
+    margin: 0 auto;
+}
 
 
