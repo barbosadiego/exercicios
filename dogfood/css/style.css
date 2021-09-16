@@ -12,7 +12,9 @@ img{
     max-width: 100%;
 }
 
-
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 :root{
     --cinza: #452A31;
@@ -164,3 +166,78 @@ header span{
         width: 80%;
     }
 }
+
+
+/*-----------GROUP-2-------------*/
+
+.group-2{
+    padding: 80px calc((100% - 1160px) /2);
+    position: relative;
+}
+
+.group-2 .info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: flex-start;
+}
+
+.group-2 h1, .group-2 .img{
+    flex: 1 1 200px;
+}
+
+.group-2 .story{
+    flex: 2 1 300px;
+    padding: 20px;
+}
+
+.group-2 h1{
+    font-size: 3.65rem;
+    line-height: 65px;
+    padding: 20px;
+}
+
+.group-2 p{
+    padding-top: 50px;
+    font-size: 1.2rem;
+}
+
+.group-2 a{
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 30px 0px;
+    color: var(--azul);
+}
+
+.group-2 span{
+    font-size: 6.25rem;
+    color: var(--azul);
+}
+
+.group-2 .img-dog{
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1050px) {
+    .group-2 .img-dog{
+        opacity: .3;
+    }
+
+    .group-2 .img{
+        margin-left: 50%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .group-2 .img{
+        margin: auto;
+    }
+}
+
+
+
