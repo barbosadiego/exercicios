@@ -234,6 +234,11 @@ header span{
 }
 
 @media screen and (max-width: 690px) {
+    
+    .group-2{
+        text-align: center;
+    }
+    
     .group-2 .img{
         margin: auto;
     }
@@ -269,6 +274,12 @@ header span{
     padding: 10px;
     line-height: 33px;
     font-size: 1.2rem;
+}
+
+@media screen and (max-width:899px) {
+    .group-3 span{
+        font-size: 3.7rem;
+    }
 }
 
 /*------------GROUP 3B-------------*/
@@ -312,6 +323,12 @@ header span{
     margin: 10px;
 }
 
+@media screen and (max-width:899px) {
+    .group-3b{
+        text-align: center;
+    }
+}
+
 
 /*------------GROUP 4---------------*/
 
@@ -340,6 +357,7 @@ header span{
     border-top: none;
     border-left: none;
     border-right: none;
+    outline: none;
     padding: 10px 0px;
     margin: 30px 0px;
 }
@@ -373,4 +391,33 @@ header span{
     flex: 1;
     position: relative;
     top: -120px;
+}
+
+@media screen and (max-width:899px) {
+    .group-4{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .group-4 .img{
+        top: 0;
+        margin: 30px 10px;
+    }
+
+    .group-4 .img img{
+        height: 280px;
+    }
+
+    .group-4 .search{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .group-4 .get{
+        margin: 0px;
+        padding: 10px auto;
+    }
 }
