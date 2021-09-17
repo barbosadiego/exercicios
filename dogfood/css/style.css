@@ -474,3 +474,97 @@ header span{
     }
 }
 
+/*---------FOOTER-----------*/
+
+footer{
+    padding: 80px calc((100% - 1160px) / 2);
+    margin: 50px;
+    background: url(../img/Clip.png) no-repeat center;
+    background-size: cover;
+    height: 525px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+footer .info{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .info .menu{
+    position: absolute;
+    bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+footer .info a{
+    text-transform: uppercase;
+    color: var(--cinza);
+    font-weight: bold;
+}
+
+
+footer .info, footer .espaco{
+    flex: 1;
+}
+
+footer .social ul{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+footer .social p{
+    position: absolute;
+    bottom: 20px;
+}
+
+footer .social ul li {
+    display: block;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:1159px) {
+
+    footer .social p{
+        bottom: 50px;
+    }
+}
+
+@media screen and (max-width:760px) {
+
+    footer{
+        margin: 0px;
+    }
+
+    footer .logo{
+        position: relative;
+        width: 90%;
+        top: -30px;
+    }
+
+    footer .info{
+        flex: 2;
+    }
+
+    footer .info .menu{
+        bottom: 120px;
+    }
+
+    footer .social p{
+        bottom: 60px;
+    }
+
+    footer .social ul{
+        right: auto;
+    }
+
+    footer .social ul li{
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+}
