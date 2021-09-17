@@ -348,8 +348,6 @@ header span{
     position: relative;
 }
 
-
-
 .group-4 .search input{
     display: block;
     width: 70%;
@@ -419,5 +417,59 @@ header span{
     .group-4 .get{
         margin: 0px;
         padding: 10px auto;
+    }
+}
+
+/*--------GROUP 5----------*/
+
+.group-5{
+    padding: 80px calc((100% - 1160px) / 2);
+    margin: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.group-5 .img{
+    flex: 1 1 300px;
+}
+
+.group-5 .info{
+    flex: 2 1 500px;
+    max-width: 600px;
+    margin-right: 80px;
+}
+
+.group-5 .info h1{
+    font-family: var(--fonte-destaque);
+    font-size: 2rem;
+    margin-bottom: 30px;
+    line-height: 46px;
+}
+
+.group-5 .info a{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 20px;
+    background-color: var(--azul);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media screen and (max-width:899px) {
+    .group-5{
+        text-align: center;
+    }
+
+    .group-5 .img img{
+        margin: 0 auto;
+    }
+
+    .group-5 .info{
+        max-width: 100%;
+        margin: 0px;
     }
 }
