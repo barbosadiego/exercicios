@@ -6,7 +6,9 @@
 }
 
 img{
-    
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
 }
 
 body{
@@ -95,10 +97,22 @@ body{
 
 .anuncios{
     grid-area: anuncios;
+    background: #fafbfc;
+    display: grid;
+    align-content: start;
+    padding: 30px;
+    gap: 30px;
 }
 
 /* FOOTER */
 
 .footer{
     grid-area: footer;
+    background: #b07dfb;
+    text-align: center;
+}
+
+.footer p{
+    color: white;
+    padding: 30px;
 }
