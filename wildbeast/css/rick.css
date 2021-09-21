@@ -3,7 +3,6 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
-    box-sizing: border-box;
 }
 
 body{
@@ -18,7 +17,7 @@ img{
 
 .estrutura{
     display: grid;
-    grid-template-columns: 1fr 4fr minmax(150px, 1fr);
+    grid-template-columns: minmax(160px, 1fr) 4fr 300px;
     grid-template-areas: 
     "header header header"
     "sidenav conteudo anuncio"
@@ -68,14 +67,40 @@ header nav li a:hover{
 }
 
 
-
-
-
-
+/*------sidenav-----------*/
 
 .sidenav{
     grid-area: sidenav;
+    padding: 30px;
+    background-color: #fafbfc;
 }
+
+.sidenav li a{
+    display: block;
+    min-width: 60px;
+    max-width: 100px; 
+    background-color: #fff;
+    margin: 0px auto 30px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.sidenav li a:hover{
+    background-color: #B07DFB;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .conteudo{
     grid-area: conteudo;
