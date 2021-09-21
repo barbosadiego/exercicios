@@ -3,15 +3,16 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Vollkorn', "Georgia", serif;
 }
 
 img{
     display: block;
-    max-width: 200px;
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -25,8 +26,13 @@ img{
     ;
 }
 
+p{
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, .7);
+}
 
 /*------head-------*/
+
 header{
     grid-area: header;
     display: grid;
@@ -66,7 +72,6 @@ header nav li a:hover{
     background-color: rgba(136, 68, 238, 1);
 }
 
-
 /*------sidenav-----------*/
 
 .sidenav{
@@ -91,20 +96,91 @@ header nav li a:hover{
     background-color: #B07DFB;
 }
 
-
-
-
-
-
-
-
-
-
-
+/*---------conteudo---------*/
 
 .conteudo{
     grid-area: conteudo;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
 }
+
+.titulo h1{
+    font-size: 3.4em;
+    color: #B07DFB;
+    line-height: 1;
+}
+
+.titulo span{
+    color: #B07DFB;
+    font-style: italic;
+}
+
+.conteudo .dados{
+    display: flex;
+    align-items: flex-start;
+    color: #B07DFB;
+}
+
+.dados > div{
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.25);
+    width: 80px;
+}
+
+.dados > div:first-child{
+    margin-right: 30px;
+}
+
+.dados span{
+    display: block;
+}
+
+.dados .numero{
+    font-size: 4em;
+    line-height: 1;
+    margin-left: 10px;
+}
+
+.dados .rotulo{
+    position: relative;
+    top: 2px;
+    background-color: white;
+    padding: 5px 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+
+.largo{
+    grid-column: 1/-1;
+}
+
+.conteudo .img-1{
+    grid-row: span 2;
+    align-self: end;
+}
+
+.conteudo .img-2{
+    align-self: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .anuncio{
     grid-area: anuncio;
