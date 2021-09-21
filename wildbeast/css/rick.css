@@ -16,6 +16,11 @@ img{
     border-radius: 5px;
 }
 
+p{
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, .7);
+}
+
 .estrutura{
     display: grid;
     grid-template-columns: minmax(160px, 1fr) 4fr 300px;
@@ -26,10 +31,31 @@ img{
     ;
 }
 
-p{
-    font-size: 1.2em;
-    color: rgba(0, 0, 0, .7);
+@media (max-width:1200px){
+    .estrutura{
+        grid-template-columns: minmax(160px, 1fr) 4fr;
+        grid-template-areas: 
+        "header header"
+        "sidenav conteudo"
+        "anuncio anuncio"
+        "footer footer"
+        ;
+    }
 }
+
+@media (max-width:650px){
+    .estrutura{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "header"
+        "sidenav"
+        "conteudo"
+        "anuncio"
+        "footer"
+        ;
+    }
+}
+
 
 /*------head-------*/
 
@@ -207,19 +233,25 @@ header nav li a:hover{
     border-top: 2px solid #B07DFB;
 }
 
+@media (max-width:650px){
+    .conteudo{
+        grid-template-columns: auto;
+    }
+}
+
 /* --------anuncios------------*/
 
 .anuncio{
-    padding: 30px;
-}
-
-.anuncio img{
-    margin-bottom: 30px;
-}
-
-.anuncio{
     grid-area: anuncio;
+    background: #fafbfc;
+    padding: 30px;
+    display: grid;
+    align-content: start;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    justify-content: space-around;
 }
+
 
 /*-------footer---------*/
 
