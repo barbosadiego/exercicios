@@ -155,7 +155,10 @@ header nav li a:hover{
     border-radius: 0px 0px 5px 5px;
 }
 
-
+.conteudo .destaque{
+    color: #B07DFB;
+    font-size: 1.1em;
+}
 
 .largo{
     grid-column: 1/-1;
@@ -169,6 +172,42 @@ header nav li a:hover{
 .conteudo .img-2{
     align-self: end;
 }
+
+.conteudo blockquote{
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.conteudo blockquote p{
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.conteudo .info p{
+    margin-bottom: 30px;
+}
+
+.conteudo .caracteristicas{
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+    border-radius: 5px;
+    padding: 30px;
+    align-self: start;
+}
+
+.conteudo .caracteristicas li{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.125em;
+    padding: 10px;
+}
+
+.conteudo .caracteristicas li + li{
+    border-top: 2px solid #B07DFB;
+}
+
+/* --------anuncios------------*/
 
 
 
