@@ -13,4 +13,78 @@ body{
 img{
     display: block;
     max-width: 200px;
+    border-radius: 5px;
+}
+
+.estrutura{
+    display: grid;
+    grid-template-columns: 1fr 4fr minmax(150px, 1fr);
+    grid-template-areas: 
+    "header header header"
+    "sidenav conteudo anuncio"
+    "footer footer footer"
+    ;
+}
+
+
+/*------head-------*/
+header{
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background: linear-gradient(to right, #8844EE, #B07DFB);
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 2.8em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav li + li{
+    margin-left: 10px;
+}
+
+header nav li a{
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: rgba(136, 68, 238, .3);
+    border-radius: 5px;
+    transition: .3s;
+}
+
+header nav li a:hover{
+    background-color: rgba(136, 68, 238, 1);
+}
+
+
+
+
+
+
+
+.sidenav{
+    grid-area: sidenav;
+}
+
+.conteudo{
+    grid-area: conteudo;
+}
+
+.anuncio{
+    grid-area: anuncio;
+}
+
+footer{
+    grid-area: footer;
 }
