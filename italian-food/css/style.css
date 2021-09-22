@@ -255,6 +255,7 @@ nav ul a{
 
 .group-7{
     padding: 30px 10px;
+    
 }
 
 .group-7 h1{
@@ -276,4 +277,49 @@ nav ul a{
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
+    
+}
+
+/*-----------group 8----------*/
+
+.group-8 {
+    background-color: #27292C;
+    color: white;
+    padding: 30px 10px;
+    position: relative;
+}
+
+.group-8 img{
+    display: none;
+}
+
+.group-8 h1{
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.group-8 p{
+    margin-bottom: 30px;
+}
+
+.group-8 input{
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+
+.group-8 button{
+    background: #54524F;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
 }
