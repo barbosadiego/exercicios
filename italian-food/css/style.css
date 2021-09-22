@@ -20,100 +20,43 @@ main, nav, footer{
     text-align: center;
 }
 
-#busca{
-    display: none;
-}
-
 .estrutura{
     display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: 
+        "nav"
+        "group-1"
+        "group-2"
+        "group-3"
+        "group-4"
+        "group-5"
+        "group-6"
+        "group-7"
+        "group-8"
+        "footer"
+    ;
 }
 
-#btn-mobile{
-    display: flex;
-    margin: 5px;
-    padding: .5em;
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-    gap: .5em;
-}
-
-#hamburguer{
-    width: 30px;
-    border-top: 4px solid white;
-}
-
-#hamburguer::after, #hamburguer::before{
-    content: "";
-    width: 30px;
-    height: 4px;
-    background: white;
-    display: block;
-    margin-top: 5px;
-    position: relative;
-    transition: .3s;
-}
-
-#nav.active #hamburguer{
-    border-top-color: transparent;
-}
-
-#nav.active #hamburguer::after{
-    transform: rotate(135deg);
-}
-
-#nav.active #hamburguer::before{
-    transform: rotate(-135deg);
-    top: 9px;
-}
-
-#menu{
-    display: block;
-    position: absolute;
-    width: 100%;
-    top: 120px;
-    right: 0px;
-    background-color: var(--cinza);
-    height: 0px;
-    z-index: 100;
-    transition: .5s;
-    overflow-y: hidden;
-    visibility: hidden;
-}
-
-#nav.active #menu{
-    height: 100vh;
-    visibility: visible;
-    overflow-y: auto;
-}
-
-#menu a{
-    display: block;
-    padding: 1rem 0px;
-    margin: 20px 2rem;
-    border-bottom: 1px solid white;
-}
 
 /*fim dos estilos gerais*/
 
 /* -------- group 1 navegação ---------*/
 
 nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     background-color: transparent;
     padding: 10px;
     grid-area: nav;
 }
 
-#logo{
-    margin-bottom: 10px;
+#logo img{
+    margin: 0px auto;
+    padding-top: 10px;
 }
 
 nav ul{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: .5em;
 }
 
@@ -132,15 +75,9 @@ nav ul a{
     color: white;
     position: relative;
     margin-bottom: 30px;
+    grid-area: group-1;
 }
 
-.group-1 .info{
-    grid-area: left;
-}
-
-.grou-1 img{
-    grid-area: right;
-}
 
 .group-1 .info h1{
     text-transform: capitalize;
@@ -180,6 +117,7 @@ nav ul a{
 
 .group-2{
     padding: 30px 10px;
+    grid-area: group-2;
 }
 
 .group-2 img{
@@ -204,6 +142,7 @@ nav ul a{
     padding: 30px 10px;
     background: #2E3034;
     color: white;
+    grid-area: group-3;
 }
 
 .group-3 h1{
@@ -233,6 +172,7 @@ nav ul a{
 
 .group-4{
     padding: 30px 10px;
+    grid-area: group-4;
 }
 
 .group-4 h2{
@@ -255,6 +195,7 @@ nav ul a{
 
 .group-5{
     padding: 0px 10px 30px 10px;
+    grid-area: group-5;
 }
 
 .group-5 h2{
@@ -281,6 +222,7 @@ nav ul a{
     padding: 60px 10px 0px 10px;
     color: white;
     position: relative;
+    grid-area: group-6;
 }
 
 .group-6 .pizza{
@@ -322,6 +264,7 @@ nav ul a{
 
 .group-7{
     padding: 30px 10px;
+    grid-area: group-7;
     
 }
 
@@ -354,6 +297,7 @@ nav ul a{
     color: white;
     padding: 30px 10px;
     position: relative;
+    grid-area: group-8;
 }
 
 .group-8 img{
@@ -395,6 +339,7 @@ nav ul a{
 
 footer{
     padding: 30px 10px;
+    grid-area: footer;
 }
 
 footer h1{
@@ -425,4 +370,25 @@ footer li{
 
 footer a{
     color: black;
+}
+
+/*--------desktop---------*/
+
+@media (min-width:1050px){
+    .estrutura{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "nav nav"
+        "group-1 group-1"
+        "group-2 group-2"
+        "group-3 group-3"
+        "group-4 group-4"
+        "group-5 group-5"
+        "group-6 group-6"
+        "group-7 group-7"
+        "group-8 group-8"
+        "footer footer"
+        ;
+    }
 }
