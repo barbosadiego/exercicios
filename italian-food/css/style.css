@@ -131,8 +131,39 @@ nav ul a{
     font-weight: bold;
 }
 
+/*------group 3---------*/
+
 .group-3{
     padding: 30px 10px;
     background: #2E3034;
     color: white;
+}
+
+.group-3 h1{
+    font-size: 2em;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+.group-3 p + p{
+    margin-top: 20px;
+}
+
+.group-3 a{
+    color: #2E3034;
+    display: inline-block;
+    margin-top: 20px;
+    background: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+/*------group 4----------*/
+
+.group-4{
+    padding: 30px 10px;
 }
