@@ -250,3 +250,30 @@ nav ul a{
     background-color: white;
     margin: 10px auto;
 }
+
+/*---------group 7----------*/
+
+.group-7{
+    padding: 30px 10px;
+}
+
+.group-7 h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.group-7 p{
+    margin-bottom: 30px;
+}
+
+.group-7 a{
+    display: inline-block;
+    margin: 30px 0px;
+    color: #2E3034;
+    border: 1px solid #2E3034;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
