@@ -206,3 +206,47 @@ nav ul a{
     letter-spacing: 2px;
 }
 
+/*-------group 6---------*/
+
+.group-6{
+    background: url(../img/Header\ Background-resize-mobile.jpg) no-repeat center;
+    background-size: cover;
+    padding: 60px 10px 0px 10px;
+    color: white;
+    position: relative;
+}
+
+.group-6 .pizza{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.group-6 .pedaco{
+    width: 30%;
+    position: relative;
+    top: -90px;
+}
+
+.group-6 .folhas{
+    position: absolute;
+    bottom: 130px;
+}
+
+.group-6 h1{
+    font-size: 2em;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.group-6 p{
+    margin-bottom: 30px;
+}
+
+.group-6 p::after{
+    display: block;
+    content: "";
+    width: 160px;
+    height: 5px;
+    background-color: white;
+    margin: 10px auto;
+}
