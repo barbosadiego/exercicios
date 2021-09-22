@@ -16,3 +16,39 @@ img{
     display: block;
 }
 
+main, nav, footer{
+    padding: 0px 10px;
+    text-align: center;
+}
+
+#busca{
+    display: none;
+}
+
+/*fim dos estilos gerais*/
+
+/* -------- group 1 ---------*/
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+#logo{
+    margin-bottom: 10px;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+}
+
+nav ul a{
+    display: block;
+    padding: 10px 5px;
+    color: white;
+    text-transform: uppercase;
+}
