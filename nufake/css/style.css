@@ -14,10 +14,6 @@ body{
     --roxo: #820ad1;
 }
 
-header{
-    
-}
-
 nav{
     display: flex;
     align-items: center;
