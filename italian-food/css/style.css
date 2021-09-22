@@ -17,7 +17,6 @@ img{
 }
 
 main, nav, footer{
-    padding: 0px 10px;
     text-align: center;
 }
 
@@ -25,15 +24,20 @@ main, nav, footer{
     display: none;
 }
 
+.estrutura{
+    display: grid;
+}
+
 /*fim dos estilos gerais*/
 
-/* -------- group 1 ---------*/
+/* -------- group 1 navegação ---------*/
 
 nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: lightblue;
+    background-color: transparent;
+    padding: 10px;
 }
 
 #logo{
@@ -52,3 +56,49 @@ nav ul a{
     color: white;
     text-transform: uppercase;
 }
+
+/*------group 1 introdução---------*/
+
+.group-1{
+    background: url(../img/Header\ Background-resize-mobile.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.group-1 .info h1{
+    text-transform: capitalize;
+    font-size: 3em;
+    line-height: 1;
+}
+
+.group-1 .info span{
+    font-size: 1.25em;
+    display: block;
+    text-transform: uppercase;
+}
+
+.group-1 .info a{
+    display: inline-block;
+    color: #2E3034;
+    background: white;
+    padding: 12px 20px;
+    margin: 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.group-1 .info p{
+    margin: 1em 0px;
+}
+
+.group-1 .folhas{
+    position: absolute;
+    bottom: -40px;
+}
+
+/*------group 2---------*/
+
+
