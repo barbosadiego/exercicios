@@ -1,0 +1,315 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Vollkorn', "Georgia", serif;
+}
+
+img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, .7);
+}
+
+.estrutura{
+    display: grid;
+    grid-template-columns: minmax(160px, 1fr) 4fr 300px;
+    grid-template-areas: 
+    "header header header"
+    "sidenav conteudo anuncio"
+    "footer footer footer"
+    ;
+}
+
+@media (max-width:1200px){
+    .estrutura{
+        grid-template-columns: minmax(160px, 1fr) 4fr;
+        grid-template-areas: 
+        "header header"
+        "sidenav conteudo"
+        "anuncio anuncio"
+        "footer footer"
+        ;
+    }
+}
+
+@media (max-width:650px){
+    .estrutura{
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "header"
+        "sidenav"
+        "conteudo"
+        "anuncio"
+        "footer"
+        ;
+    }
+}
+
+
+/*------head-------*/
+
+header{
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background: linear-gradient(135deg, #8844EE, #B07DFB);
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 2.8em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav li + li{
+    margin-left: 10px;
+}
+
+header nav li a{
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    background: rgba(136, 68, 238, 1);
+    border-radius: 5px;
+    transition: .3s;
+}
+
+header nav li a:hover{
+    background-color: rgba(136, 68, 238, .3);
+}
+
+@media (max-width:650px){
+    header{
+        grid-template-columns: auto;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+}
+
+/*------sidenav-----------*/
+
+.sidenav{
+    grid-area: sidenav;
+    padding: 30px;
+    background-color: #fafbfc;
+}
+
+.sidenav li a{
+    display: block;
+    min-width: 60px;
+    max-width: 100px; 
+    background-color: #fff;
+    margin: 0px auto 30px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.sidenav li a:hover{
+    background-color: #B07DFB;
+}
+
+@keyframes seta{
+    from{
+        right: 30px;
+    }
+    to{
+        right: 20px;
+    }
+}
+
+@media (max-width:650px){
+    .sidenav{
+        padding: 0px 30px;
+        overflow-x: auto;
+        position: relative;
+    }
+
+    .sidenav::after{
+        content: "→";
+        position: absolute;
+        top: 5px;
+        right: 30px;
+        color: rgba(0, 0, 0, .5);
+        animation: seta .5 ease-in 0s infinite;
+    }
+
+    .sidenav ul{
+        display: flex;
+    }
+
+    .sidenav li{
+        flex: 1 0 160px;
+    }
+
+    .sidenav li a{
+        margin: 30px 0px 30px 0px;
+    }
+}
+/*---------conteudo---------*/
+
+.conteudo{
+    grid-area: conteudo;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.titulo h1{
+    font-size: 3.4em;
+    color: #B07DFB;
+    line-height: 1;
+}
+
+.titulo span{
+    color: #B07DFB;
+    font-style: italic;
+}
+
+.conteudo .dados{
+    display: flex;
+    align-items: flex-start;
+    color: #B07DFB;
+}
+
+.dados > div{
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.25);
+    width: 80px;
+}
+
+.dados > div:first-child{
+    margin-right: 30px;
+}
+
+.dados span{
+    display: block;
+}
+
+.dados .numero{
+    font-size: 4em;
+    line-height: 1;
+    margin-left: 10px;
+}
+
+.dados .rotulo{
+    position: relative;
+    top: 2px;
+    background-color: white;
+    padding: 5px 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.conteudo .destaque{
+    color: #B07DFB;
+    font-size: 1.1em;
+}
+
+.largo{
+    grid-column: 1/-1;
+}
+
+.conteudo .img-1{
+    grid-row: span 2;
+    align-self: end;
+}
+
+.conteudo .img-2{
+    align-self: end;
+}
+
+.conteudo blockquote{
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.conteudo blockquote p{
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.conteudo .info p{
+    margin-bottom: 30px;
+}
+
+.conteudo .caracteristicas{
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+    border-radius: 5px;
+    padding: 30px;
+    align-self: start;
+}
+
+.conteudo .caracteristicas li{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.125em;
+    padding: 10px;
+}
+
+.conteudo .caracteristicas li + li{
+    border-top: 2px solid #B07DFB;
+}
+
+@media (max-width:650px){
+    .conteudo{
+        grid-template-columns: auto;
+    }
+}
+
+/* --------anuncios------------*/
+
+.anuncio{
+    grid-area: anuncio;
+    background: #fafbfc;
+    padding: 30px;
+    display: grid;
+    align-content: start;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    justify-content: space-around;
+}
+
+
+/*-------footer---------*/
+
+footer{
+    grid-area: footer;
+    background: linear-gradient(135deg, #8844ee, #b07fdb);
+    text-align: center;
+    padding: 30px 0px;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
