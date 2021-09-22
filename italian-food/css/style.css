@@ -28,6 +28,72 @@ main, nav, footer{
     display: grid;
 }
 
+#btn-mobile{
+    display: flex;
+    margin: 5px;
+    padding: .5em;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    gap: .5em;
+}
+
+#hamburguer{
+    width: 30px;
+    border-top: 4px solid white;
+}
+
+#hamburguer::after, #hamburguer::before{
+    content: "";
+    width: 30px;
+    height: 4px;
+    background: white;
+    display: block;
+    margin-top: 5px;
+    position: relative;
+    transition: .3s;
+}
+
+#nav.active #hamburguer{
+    border-top-color: transparent;
+}
+
+#nav.active #hamburguer::after{
+    transform: rotate(135deg);
+}
+
+#nav.active #hamburguer::before{
+    transform: rotate(-135deg);
+    top: 9px;
+}
+
+#menu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 120px;
+    right: 0px;
+    background-color: var(--cinza);
+    height: 0px;
+    z-index: 100;
+    transition: .5s;
+    overflow-y: hidden;
+    visibility: hidden;
+}
+
+#nav.active #menu{
+    height: 100vh;
+    visibility: visible;
+    overflow-y: auto;
+}
+
+#menu a{
+    display: block;
+    padding: 1rem 0px;
+    margin: 20px 2rem;
+    border-bottom: 1px solid white;
+}
+
 /*fim dos estilos gerais*/
 
 /* -------- group 1 navegação ---------*/
@@ -80,6 +146,7 @@ nav ul a{
     text-transform: capitalize;
     font-size: 3em;
     line-height: 1;
+    margin: 30px 0px 20px 0px;
 }
 
 .group-1 .info span{
@@ -93,7 +160,7 @@ nav ul a{
     color: #2E3034;
     background: white;
     padding: 12px 20px;
-    margin: 20px;
+    margin-top: 50px;
     border-radius: 25px;
     text-transform: uppercase;
     font-weight: bold;

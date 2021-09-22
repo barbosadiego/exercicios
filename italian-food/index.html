@@ -14,16 +14,18 @@
     <div class="estrutura">
         <main>
             <section class="group-1">
-                <nav>
+                <div id="header" class="head">
                     <a id="logo" href="#"><img src="img/logo.svg" alt="italian food logo"></a>
-                    <ul>
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">menu</a></li>
-                        <li><a href="#">our story</a></li>
-                        <li><a href="#">contact us</a></li>
-                    </ul>
-                    <input id="busca" type="text">
-                </nav>
+                    <nav id="nav">
+                        <button id="btn-mobile"><span id="hamburguer"></span></button>
+                        <ul id="menu">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">menu</a></li>
+                            <li><a href="#">our story</a></li>
+                            <li><a href="#">contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>
                 <div class="info">
                     <h1>italian food</h1>
                     <span>loremipsum dolor</span>
@@ -148,5 +150,6 @@
             </ul>
         </footer> 
     </div>
+    <script src="js/menu.js"></script>
 </body>
 </html>
