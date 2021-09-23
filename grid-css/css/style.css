@@ -197,8 +197,13 @@ footer{
         text-align: center;
         margin: auto;
     }
+}
 
-    .portfolio{
-        grid-template-columns: 1fr;
+@media (max-width:500px){
+    .top-container{
+        grid-template-areas: 
+        'showcase'
+        'top-box-a'
+        'top-box-b';
     }
 }
