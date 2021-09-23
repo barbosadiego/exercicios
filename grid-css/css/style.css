@@ -137,3 +137,37 @@ img{
     padding: 1.5rem 2rem;
     box-shadow: var(--shadow);
 }
+
+/* info */
+
+.info{
+    background: var(--primaria);
+    box-shadow: var(--shadow);
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+}
+
+/* portfolio */
+
+.portfolio{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.portfolio img{
+    width: 100%;
+    box-shadow: var(--shadow);
+}
+
+/* footer */
+
+footer{
+    margin-top: 2rem;
+    background: var(--dark);
+    color: var(--light);
+    text-align: center;
+    padding: 1rem;
+}
