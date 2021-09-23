@@ -54,4 +54,44 @@ img{
     text-transform: uppercase;
     font-size: 1.1rem;
     box-shadow: var(--shadow);
+    transition: .3s;
+}
+
+.main-nav a:hover{
+    background: var(--dark);
+    color: var(--light);
+}
+
+/* top container */
+
+.top-container{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    'showcase showcase top-box-a'
+    'showcase showcase top-box-b'
+    ;
+}
+
+/* showcase */
+
+.showcase{
+    grid-area: showcase;
+    min-height: 400px;
+    background: url(../img/female-employee-happy-smiling-with-colleagues-blurred-shade.jpg) no-repeat center;
+    background-size: cover;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.top-box-a{
+    grid-area: top-box-a;
+}
+
+.top-box-b{
+    grid-area: top-box-b;
 }
