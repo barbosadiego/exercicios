@@ -247,6 +247,10 @@ ul{
     flex-wrap: wrap;
 }
 
+.footer-inner p{
+    margin-bottom: 20px;
+}
+
 .footer li{
     margin-right: 20px;
     margin-bottom: 20px;
@@ -328,8 +332,6 @@ ul{
     .links .links-inner ul{
         margin-bottom: 20px;
     }
-
-    
 
     .footer div{
         flex-direction: column;
