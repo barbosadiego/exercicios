@@ -125,7 +125,7 @@ section{
 }
 
 .navigation .social-bar{
-    position: relative;
+    position: absolute;
     top: 0px;
     left: 0px;
     width: 60px;
