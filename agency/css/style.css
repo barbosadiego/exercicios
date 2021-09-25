@@ -355,6 +355,30 @@ section.home{
     .services{
         grid-template-columns: repeat(2,1fr);
     }
+
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact-form{
+        width: 100%;
+        padding: 30px 30px 20px;
+    }
+
+    .contact-form .row{
+        flex-direction: column;
+    }
+
+    .contact-form .input50, .contact-form .input100{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .contact-info{
+        width: 100%;
+        margin-top: 20px;
+        padding: 30px 30px 20px;
+    }
 }
 
 @media (max-width:768px){
