@@ -49,8 +49,6 @@ header{
     top: 30px;
 }
 
-
-
 header .logo{
     background-color: var(--amarelo);
     display: inline-block;
@@ -68,8 +66,6 @@ header .logo a{
     z-index: 10;
     margin: 20px;
 }
-
-
 
 header nav ul{
     justify-self: flex-end;
@@ -145,4 +141,43 @@ header nav ul a{
 
 .group-1 .intro a:hover{
     background-color: var(--cinza);
+}
+
+@media (max-width:1050px){
+    header nav{
+        display: none;
+    }
+
+    header .logo{
+        text-align: left;
+        width: 200px;
+    }
+
+    .group-1{
+        height: 100vh;
+        padding: 0px;
+    }
+
+    .group-1, .group-1 .intro{
+        flex-direction: column;
+    }
+
+    .group-1 .intro{
+        align-items: center;
+        text-align: center;
+    }
+
+    .group-1 .intro h1{
+        font-size: 5rem;
+        line-height: 20px;
+    }
+
+    .group-1 .intro span{
+        font-size: 2.8rem;
+    }
+
+    .group-1 .intro a{
+        top: 0px;
+    }
+
 }
