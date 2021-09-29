@@ -302,6 +302,7 @@ header nav ul a{
 
     .group-3{
         flex-direction: column;
+        text-align: center;
     }
 
 }
