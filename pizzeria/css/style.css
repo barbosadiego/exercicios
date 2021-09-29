@@ -169,9 +169,6 @@ header nav ul a{
 
     .group-1, .group-1 .intro{
         flex-direction: column;
-    }
-
-    .group-1 .intro{
         align-items: center;
         text-align: center;
     }
@@ -179,6 +176,7 @@ header nav ul a{
     .group-1 .intro h1{
         font-size: 5rem;
         line-height: 20px;
+        z-index: 0;
     }
 
     .group-1 .intro span{
