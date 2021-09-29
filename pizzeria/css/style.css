@@ -33,7 +33,11 @@ a{
     color: white;
 }
 
-#btn-mobile{
+.menu-btn{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
     display: none;
 }
 
@@ -144,6 +148,11 @@ header nav ul a{
 }
 
 @media (max-width:1050px){
+
+    .menu-btn{
+        display: block;
+    }
+
     header nav{
         display: none;
     }

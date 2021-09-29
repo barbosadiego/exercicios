@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/238b933d7f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>#pizzeria</title>
 </head>
@@ -16,14 +17,14 @@
             <a href="#">#pizzaria.</a>
         </div>
         <nav id="nav">
-            <button id="btn-mobile"></button>
-            <ul>
+            <ul class="main-nav">
                 <li><a href="#menu">menu</a></li>
                 <li><a href="#blog">blog</a></li>
                 <li><a href="#about us">about us</a></li>
                 <li><a href="#contacts">contacts</a></li>
             </ul>
         </nav>
+        <div class="menu-btn"><i class="fas fa-bars fa-2x"></i></div>
     </header>
     <section class="group-1">
         <div class="intro">
@@ -64,5 +65,7 @@
 
 
 </body>
-<script src="js/menu.js"></script>
+<script>
+    document.querySelector('.menu-btn').addEventListener('click',() => document.querySelector('.main-nav').classList.toggle('show'));
+</script>
 </html>
