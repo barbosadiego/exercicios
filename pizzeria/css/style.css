@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+}
+       
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: black;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+:root{
+    --amarelo:#FFBA00;
+    --cinza:#242424;
+    --cinza-amarelado: #483500;
+    --fonte-padrao: 'Montserrat', sans-serif;
+    --fonte-destaque: 'Lato', sans-serif;
+}
+
+a{
+    color: white;
+}
+
+#btn-mobile{
+    display: none;
+}
+
+/*-----header-------*/
+
+header{
+    background: url(../img/hero-escuro.jpg) no-repeat center center / cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px calc((100% - 1440px) /2);
+}
+
+#logo{
+    font-size: 2rem;
+    font-weight: bold;
+    background: var(--amarelo);
+    background-position: right;
+    height: 77px;
+    width: 351px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+    
+
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+header nav ul a{
+    text-transform: capitalize;
+    font-size: 1.7rem;
+}
