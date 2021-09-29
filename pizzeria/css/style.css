@@ -147,6 +147,71 @@ header nav ul a{
     background-color: var(--cinza);
 }
 
+/* group-2 */
+
+.group-2{
+    background-color: var(--cinza);
+    position: relative;
+    top: -80px;
+    color: white;
+    padding: 100px 0px;
+}
+
+.group-2 .info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.group-2 .info h1{
+    font-size: 3rem;
+    z-index: 10;
+}
+
+.group-2 .info .new ul{
+    z-index: 10;
+}
+
+.group-2 .info p{
+    font-size: 1.5rem;
+    padding: 20px 0px;
+}
+
+.group-2 .info span{
+    transform: rotate(-90deg);
+    font-size: 3.5rem;
+    font-weight: 300;
+    z-index: 10;
+}
+
+.group-2 .info .new{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.group-2 .design{
+    width: 940px;
+    height: 190px;
+    background-color: var(--amarelo);
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:1050px){
 
     .menu-btn{
@@ -185,6 +250,33 @@ header nav ul a{
 
     .group-1 .intro a{
         top: 0px;
+    }
+
+    .group-2 .info span{
+        transform: none;
+    }
+
+    .group-2 .design{
+        display: none;
+    }
+
+    .group-2 .info{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    .group-2 .info .new h1{
+        font-size: 2rem;
+    }
+
+    .group-2 .info p{
+        font-size: 1rem;
+    }
+
+    .group-2 .info img{
+        display: none;
     }
 
 }
