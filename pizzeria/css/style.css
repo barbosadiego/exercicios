@@ -201,7 +201,28 @@ header nav ul a{
     left: 0px;
 }
 
+/* group-3 */
 
+.group-3{
+    padding: 50px calc((100% - 1200px) / 2);
+    display: flex;
+    gap: 40px;
+}
+
+.group-3 ul{
+    padding: 0px 20px;
+}
+
+.group-3 ul h2{
+    font-size: 1.5rem;
+    color: var(--amarelo);
+    margin-bottom: 30px;
+}
+
+.group-3 ul p{
+    line-height: 25px;
+    margin-bottom: 50px;
+}
 
 
 
@@ -277,6 +298,10 @@ header nav ul a{
 
     .group-2 .info img{
         display: none;
+    }
+
+    .group-3{
+        flex-direction: column;
     }
 
 }
