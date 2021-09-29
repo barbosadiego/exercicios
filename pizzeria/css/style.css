@@ -40,29 +40,39 @@ a{
 /*-----header-------*/
 
 header{
-    background: url(../img/hero-escuro.jpg) no-repeat center center / cover;
-    height: 100vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
     padding: 20px calc((100% - 1440px) /2);
+    z-index: 10;
+    position: relative;
+    top: 30px;
 }
 
-#logo{
-    font-size: 2rem;
-    font-weight: bold;
-    background: var(--amarelo);
-    background-position: right;
+
+
+header .logo{
+    background-color: var(--amarelo);
+    display: inline-block;
     height: 77px;
     width: 351px;
     position: absolute;
-    top: 20px;
     left: 0px;
+    text-align: right;
 }
 
-    
+header .logo a{
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 10;
+    margin: 20px;
+}
+
 
 
 header nav ul{
+    justify-self: flex-end;
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -71,4 +81,12 @@ header nav ul{
 header nav ul a{
     text-transform: capitalize;
     font-size: 1.7rem;
+    padding: 10px;
+}
+
+.group-1{
+    background: url(../img/hero-escuro.jpg) no-repeat center center / cover;
+    height: 100vh;
+    position: relative;
+    top: -80px;
 }
