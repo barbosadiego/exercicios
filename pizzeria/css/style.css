@@ -336,6 +336,46 @@ header nav ul a{
     padding: 10px 0px;
 }
 
+/* group 5 */
+
+.group-5{
+    background: var(--cinza);
+    padding: 100px calc((100% - 1200px)/2);
+    color: white;
+    text-align: center;
+}
+
+.group-5 h1{
+    color: var(--amarelo);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 30px 0px;
+}
+
+.group-5 span{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.group-5 p{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.group-5 ul{
+    margin: 50px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.group-5 ul li{
+    text-transform: capitalize;
+}
+
+
 
 
 
