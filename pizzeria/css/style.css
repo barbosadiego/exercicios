@@ -327,7 +327,13 @@ header nav ul a{
 }
 
 .group-4 .content .list-2{
-    padding: 60px 0px;
+    padding: 30px 100px;
+    border: 2px solid white;
+    margin: 100px 0px;
+}
+
+.group-4 .content .list-2 li{
+    padding: 10px 0px;
 }
 
 
