@@ -458,7 +458,10 @@ header nav ul a{
 }
 
 
-
+.group-7{
+    min-height: 90vh;
+    background: linear-gradient(to right,#242424 15%, #FFBA00 15% 30%, #242424 30% 100%);
+}
 
 
 @media (max-width:1050px){
