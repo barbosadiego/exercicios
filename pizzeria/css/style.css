@@ -237,17 +237,18 @@ header nav ul a{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    overflow: hidden;
 }
 
 .group-4::after{
     display: block;
     content: "";
-    height: 100%;
+    height: 100vh;
     width: 100%;
     top: 0px;
     left: 0px;
     position: absolute;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .7);
 }
 
 .group-4 .content{
@@ -272,12 +273,62 @@ header nav ul a{
     margin: 50px 0px;
 }
 
-.group-4 .content .info{
+.group-4 .content .info .list{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template:
+    "item-1 price-1"
+    "item-2 price-2"   
+    "item-3 price-3"
+    "item-4 price-4"; 
+    gap: 30px;
 }
 
+.group-4 .content .info .list::after{
+    display: block;
+    content: "";
+    height: 300px;
+    width: 1600px;
+    top: 180px;
+    left: -100px;
+    position: absolute;
+    background: var(--amarelo);
+    
+}
 
+.group-4 .content .info .list li{
+    font-size: 30px;
+    z-index: 10;
+}
+
+.group-4 .content .info .list .list-item-1{
+   grid-area: item-1;
+}
+.group-4 .content .info .list .list-item-2{
+   grid-area: item-2;
+}
+.group-4 .content .info .list .list-item-3{
+   grid-area: item-3;
+}
+.group-4 .content .info .list .list-item-4{
+   grid-area: item-4;
+}
+
+.group-4 .content .info .list .price-item-1{
+    grid-area: price-1;
+}
+.group-4 .content .info .list .price-item-2{
+    grid-area: price-2;
+}
+.group-4 .content .info .list .price-item-3{
+    grid-area: price-3;
+}
+.group-4 .content .info .list .price-item-4{
+    grid-area: price-4;
+}
+
+.group-4 .content .list-2{
+    padding: 60px 0px;
+}
 
 
 
