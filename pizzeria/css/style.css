@@ -155,6 +155,7 @@ header nav ul a{
     top: -80px;
     color: white;
     padding: 100px 0px;
+    overflow: hidden;
 }
 
 .group-2 .info{
@@ -193,7 +194,7 @@ header nav ul a{
 }
 
 .group-2 .design{
-    width: 940px;
+    width: 879px;
     height: 190px;
     background-color: var(--amarelo);
     position: absolute;
@@ -459,17 +460,23 @@ header nav ul a{
 
 
 .group-7{
-    min-height: 90vh;
+    min-height: 105vh;
     background: linear-gradient(to right,#242424 15%, #FFBA00 15% 30%, #242424 30% 100%);
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .group-8{
-    background: maroon;
+    min-height: 100vh;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 10px;
+    padding: 0px 10px;
+    position: absolute;
+    top: 0;
+    z-index: 30;
 }
 
 .group-8 h1{
@@ -493,7 +500,7 @@ header nav ul a{
     display: flex;
     flex: 1;
     gap: 150px;
-    align-items: stretch;
+    
 }
 
 .group-8 .info p{
@@ -635,6 +642,33 @@ header nav ul a{
     .group-6 a{
         top: 0px;
     }
+
+
+    .group-8{
+        padding: 0px 10px;
+        justify-content: center;
+    }
+
+    .group-8 .info{
+        align-items: center;
+        gap: 30px;
+    }
+
+    .group-8 .info p{
+        font-size: 1rem;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .group-8 .info .links a{
+        font-size: 1.2rem;
+    }
+
+    .group-8 .info .links{
+        align-items: center;
+        gap: 20px;
+    }
+    
 }
 
 @media (max-width:780px){
@@ -650,6 +684,18 @@ header nav ul a{
 
     .group-4 .content .info .list li{
         font-size: 1rem;
+    }
+
+    .group-7, .group-8{
+        min-height: 60vh;
+    }
+
+    .group-8 .info{
+        flex-direction: column;
+    }
+
+    .group-8 .images, .group-8 h1{
+        display: none;
     }
 
 }
