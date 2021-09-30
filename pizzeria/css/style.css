@@ -229,7 +229,7 @@ header nav ul a{
 
 .group-4{
     background: url(../img/hero-4.jpg) no-repeat center center / cover;
-    height: 100vh;
+    min-height: 50vh;
     padding: 100px calc((100% - 1200px) /2);
     color: white;
     position: relative;
@@ -243,7 +243,7 @@ header nav ul a{
 .group-4::after{
     display: block;
     content: "";
-    height: 100vh;
+    height: 100%;
     width: 100%;
     top: 0px;
     left: 0px;
@@ -411,6 +411,33 @@ header nav ul a{
     .group-3{
         flex-direction: column;
         text-align: center;
+    }
+
+    .group-4 .content .info .list::after{
+        display: none;
+    }
+
+    .group-4 .content .list-2{
+        padding: 0px;
+        margin: 50px 0px 0px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:780px){
+
+    .group-4{
+        height: auto;
+    }
+
+    .group-4 .content .info .list{
+        gap: 10px;
+        margin: 10px;
+    }
+
+    .group-4 .content .info .list li{
+        font-size: 1rem;
     }
 
 }
