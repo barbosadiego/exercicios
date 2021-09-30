@@ -224,7 +224,58 @@ header nav ul a{
     margin-bottom: 50px;
 }
 
+/* group-4 */
 
+
+.group-4{
+    background: url(../img/hero-4.jpg) no-repeat center center / cover;
+    height: 100vh;
+    padding: 100px calc((100% - 1200px) /2);
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.group-4::after{
+    display: block;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+}
+
+.group-4 .content{
+    position: relative;
+    z-index: 10;
+}
+
+.group-4 .content h2{
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    color: var(--amarelo);
+}
+
+.group-4 .content h1{
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--amarelo);
+    margin: 50px 0px;
+}
+
+.group-4 .content .info{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
 
 
 
