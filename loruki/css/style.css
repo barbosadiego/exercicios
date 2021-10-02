@@ -229,6 +229,17 @@ img{
     align-items: start;
 }
 
+.docs-main nav li{
+    font-size: 17px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.docs-main a:hover{
+    font-weight: bold;
+}
+
 /* footer */
 
 .footer .social a{
