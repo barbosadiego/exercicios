@@ -5,6 +5,8 @@
     --secundary-color:#1c3fa8;
     --dark-color:#002240; 
     --light-color:#f4f4f4;
+    --success-color:#5cb85c;
+    --error-color:#d9534f;
 }
 
 *{
@@ -37,6 +39,12 @@ p{
 
 img{
     width: 100%;
+}
+
+code, pre{
+    background-color: #333;
+    color: white;
+    padding: 10px;
 }
 
 /* navbar */
