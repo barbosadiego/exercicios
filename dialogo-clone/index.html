@@ -13,7 +13,7 @@
         <div class="header container">
             <a class="logo" href="index.html"><img src="img/logo-dialogo-B.svg" alt="logo-empresa-dialogo"></a>
             <nav>
-                <ul>
+                <ul class="main-menu">
                     <li><a href="#">Servicos</a></li>
                     <li><a href="#">Sobre nós</a></li>
                     <li><a href="#">Orçamento</a></li>
@@ -21,7 +21,10 @@
                     <li><a href="#">Fale Conosco</a></li>
                 </ul>
             </nav>
-            <a href="#">Rastreie seu pedido aqui</a>
+            <a class="rastreio" href="#">Rastreie seu pedido aqui <i class="fas fa-truck"></i></a>
+            <div class="menu-btn">
+                <i class="fas fa-bars fa-2x"></i>
+            </div> 
         </div>
     </header>
 
@@ -38,5 +41,8 @@
     <footer>
 
     </footer>
+    <script>
+        document.querySelector('.menu-btn').addEventListener('click',() => document.querySelector('.main-menu').classList.toggle('show'));
+    </script>
 </body>
 </html>
