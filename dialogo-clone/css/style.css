@@ -36,7 +36,23 @@ img{
 }
 
 a{
+    color: black;
+}
+
+.btn{
+    display: inline-block;
+    background-color: var(--marron);
+    padding: 20px 40px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
     color: white;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    opacity: .7;
 }
 
 /*-----------header--------------*/
@@ -45,6 +61,10 @@ header{
     background-color: var(--cinza);
     height: 72px;
     width: 100%;
+}
+
+header a{
+    color: white;
 }
 
 header > div{
@@ -73,6 +93,7 @@ header > div{
 .rastreio{
     background-color: var(--marron);
     padding: 26px;
+    color: var(--cinza);
 }
 
 /*---------hero------------*/
@@ -188,6 +209,52 @@ header > div{
     font-size: 40px;
 }
 
+/* group 4 */
+
+.group-4{
+    background-color: #fbfbfb;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.group-4 .intro{
+    max-width: 800px;
+}
+
+.group-4 .intro h1{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.group-4 .intro p{
+    line-height: 23px;
+    padding: 20px 0px;
+}
+
+.group-4 .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 30px;
+}
+
+.group-4 .list li{
+    padding: 20px 10px;
+    text-transform: capitalize;
+}
+
+.group-4 .list i{
+    margin-right: 10px;
+    color: var(--marron);
+}
+
+.group-4 .list a{
+    font-size: 30px;
+    color: var(--cinza);
+}
 
 
 
@@ -278,6 +345,22 @@ header > div{
         grid-template-columns: 1fr;
         text-align: center;
         gap: 50px;
+    }
+
+    .group-4 .list{
+        gap: 10px;
+    }
+
+    .group-4 .list ul{
+        margin-top: 20px;
+    }
+
+    .group-4 .list li{
+        padding: 0px;
+    }
+
+    .group-4 .list a{
+        font-size: 16px;
     }
     
 }
