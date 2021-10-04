@@ -35,6 +35,11 @@ img{
     display: none;
 }
 
+h1{
+    font-size: 30px;
+    line-height: 30px;
+}
+
 a{
     color: black;
 }
@@ -223,8 +228,6 @@ header > div{
 }
 
 .group-4 .intro h1{
-    font-size: 30px;
-    line-height: 30px;
     margin-bottom: 30px;
 }
 
@@ -256,7 +259,40 @@ header > div{
     color: var(--cinza);
 }
 
+/* news */
 
+.news{
+    background-color: var(--cinza);
+    color: white;
+    text-align: center;
+}
+
+.news .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.news form input{
+    padding: 20px 40px;
+    background: transparent;
+    border: 2px solid var(--marron);
+    outline: none;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+}
+
+.news form input::placeholder{
+    color: white;
+}
+
+.news form .btn{
+    background: var(--marron);
+    border-radius: 0px;
+    padding: 20px;
+    cursor: pointer;
+}
 
 
 
@@ -361,6 +397,18 @@ header > div{
 
     .group-4 .list a{
         font-size: 16px;
+    }
+
+    .news form .btn{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .news form input{
+        margin-right: 0px;
+        margin-bottom: 10px;
+        padding: 10px;
     }
     
 }
