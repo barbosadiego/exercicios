@@ -336,7 +336,6 @@ header > div{
     transform: translateY(-50%);
     padding: 30px;
     display: none;
-    transition: transform .3s ease;
 }
 
 .features .container .cards .card:hover p{
