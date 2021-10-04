@@ -153,6 +153,39 @@ header > div{
     border-color: var(--marron);
 }
 
+/* info */
+
+.info{
+    background-color: var(--cinza);
+    color: white;
+}
+
+.info .container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.info i{
+    color: var(--marron);
+}
+
+.info .filiais{
+    display: flex;
+    align-items: center;
+}
+
+.info .filiais p{
+    font-size: 20px;
+}
+
+.info .filiais span{
+    font-size: 40px;
+}
+
+
 
 
 
@@ -236,6 +269,12 @@ header > div{
 
     .testemonials .quotes blockquote{
         text-align: center;
+    }
+
+    .info .container{
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 20px;
     }
     
 }
