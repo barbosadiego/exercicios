@@ -301,6 +301,7 @@ header > div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .features .container h1{
@@ -312,7 +313,6 @@ header > div{
     grid-template-columns: repeat(3,300px);
     grid-auto-rows: 250px;
     gap: 30px;
-    text-align: center;
 }
 
 .features .container .cards .card{
@@ -345,6 +345,39 @@ header > div{
 .features .container .cards .card:hover h2, 
 .features .container .cards .card:hover i{
     display: none;
+}
+
+/* banner */
+
+.banner{
+    background: url(../img/bg-20-anos-dialogo.jpg) no-repeat center right / cover;
+    height: 350px;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.banner .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .container h1{
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.banner .container p{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.banner .container span{
+    text-transform: uppercase;
+    color: var(--marron);
 }
 
 
@@ -463,4 +496,7 @@ header > div{
         padding: 10px;
     }
     
+    .features .container .cards{
+        grid-template-columns: 1fr;
+    }
 }
