@@ -700,6 +700,13 @@ footer .footer-bottom img{
 }
 
 
+/* ------------ pag sobre -----------*/
+
+.hero-sobre{
+    background: url(../img/banner-sobre-dialogo-logistica.jpg) no-repeat center center / cover;
+    height: 50vh;
+}
+
 
 
 
