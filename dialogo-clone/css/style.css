@@ -452,6 +452,69 @@ header > div{
     flex: 0 1 300px;
 }
 
+/*----------footer-----------*/
+
+footer{
+    background: var(--cinza);
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+footer nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+footer nav ul li+li{
+    padding-top: 30px;
+}
+
+footer .rastreio-footer{
+    color: var(--cinza);
+    display: inline-block;
+    align-self: center;
+    padding: 15px 20px;
+    background: var(--marron);
+}
+
+footer .rastreio-footer i{
+    color: var(--cinza);
+}
+
+footer .social ul li{
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+footer .linha{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+}
+
+footer .footer-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .footer-bottom img{
+    width: 70%;
+}
 
 
 
@@ -590,5 +653,19 @@ header > div{
         bottom: 0px;
         gap: 40px;
         padding: 20px;
+    }
+
+    footer .container,
+    footer nav{
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer .social ul li:last-child{
+        padding-right: 0px;
+    }
+
+    footer .footer-bottom{
+        justify-content: center;
     }
 }
