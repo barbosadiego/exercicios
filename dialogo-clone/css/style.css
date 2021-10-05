@@ -729,6 +729,23 @@ footer .footer-bottom img{
     font-weight: bold;
 }
 
+.experiencia{
+    text-align: center;
+    background-color: #fbfbfb;
+}
+
+.experiencia h1{
+    margin-bottom: 50px;
+}
+
+.experiencia p{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 25px;
+    padding: 20px 0px;
+}
+
 
 
 
