@@ -563,25 +563,25 @@ footer .footer-bottom img{
 
 /*----------reuso-----------*/
 
-.faixa{
-    height: 300px;
-    background: var(--cinza);
-}
-
-.features-interna{
+.features{
     position: relative;
-    height: 85vh;
 }
 
-.c-interno{
+.features::after{
+    display: block;
+    content: "";
+    height: 250px;
+    width: 100%;
+    top: 0px;
+    left: 0;
     position: absolute;
-    top: 50px;
-    left: 50%;
-    transform: translateX(-50%);
+    background: var(--cinza);
+    z-index: -1;
 }
 
 .features-interna h1{
     color: white;
+    line-height: 40px;
 }
 
 
@@ -746,20 +746,5 @@ footer .footer-bottom img{
     footer .footer-bottom{
         justify-content: center;
     }
-
-    .features-interna{
-        position: static;
-        height: auto;
-    }
-
-    .faixa{
-        display: none;
-    }
-
-    .c-interno{
-        position: static;
-        transform: none;
-        background-color: var(--cinza);
-    }
-
+    
 }
