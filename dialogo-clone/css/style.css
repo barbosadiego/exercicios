@@ -584,6 +584,60 @@ footer .footer-bottom img{
     line-height: 40px;
 }
 
+/*-------- serviços -----------*/
+
+.servicos{
+    position: relative;
+    text-align: center;
+}
+
+.servicos::after{
+    display: block;
+    content: "";
+    height: 250px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: var(--cinza);
+    position: absolute;
+    z-index: -1;
+}
+
+.servicos .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.servicos h1{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.servicos .card{
+    background: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.servicos .card > div p{
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.servicos .card p{
+    line-height: 25px;
+}
+
+.servicos .card div{
+    flex: 1 0 250px;
+}
 
 
 
@@ -731,6 +785,16 @@ footer .footer-bottom img{
         bottom: 0px;
         gap: 40px;
         padding: 20px;
+    }
+
+    .servicos .card{
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .servicos .card div{
+        flex: auto;
     }
 
     footer .container,
