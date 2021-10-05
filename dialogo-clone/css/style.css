@@ -516,6 +516,14 @@ footer .footer-bottom img{
     width: 70%;
 }
 
+/* ---------- serviços --------------*/
+
+
+.hero-servicos{
+    background: url(../img/banner-servicos-dialogo-logistica.jpg) no-repeat center center / cover;
+    height: 75vh;
+}
+
 
 
 
@@ -571,7 +579,7 @@ footer .footer-bottom img{
 
     .main-menu li a{
         display: block;
-        padding: 10px 0px;
+        padding: 15px 100px;
         color: white;
     }
 
