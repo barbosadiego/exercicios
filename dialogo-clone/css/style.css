@@ -90,7 +90,7 @@ header > div{
 }
 
 .logo img{
-    width: 250px;
+    width: 245px;
     margin-left: 10px;
 }
 
@@ -559,29 +559,6 @@ footer .footer-bottom img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-/*----------reuso-----------*/
-
-.features{
-    position: relative;
-}
-
-.features::after{
-    display: block;
-    content: "";
-    height: 250px;
-    width: 100%;
-    top: 0px;
-    left: 0;
-    position: absolute;
-    background: var(--cinza);
-    z-index: -1;
-}
-
-.features-interna h1{
-    color: white;
-    line-height: 40px;
 }
 
 /*-------- serviços -----------*/
