@@ -746,6 +746,26 @@ footer .footer-bottom img{
     padding: 20px 0px;
 }
 
+/* pag orçamento */
+
+.hero-orcamento{
+    background: url(../img/banner-orcamento-dialogo-logistica.jpg) no-repeat center center / cover;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-orcamento h1{
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.hero-orcamento .intro-interna{
+    display: flex;
+    gap: 20px;
+}
+
 
 
 
