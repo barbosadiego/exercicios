@@ -431,6 +431,28 @@ header > div{
     font-weight: bold;
 }
 
+/*--------conquistas----------*/
+
+.conquistas{
+    background: url(../img/bg-sameday-dialogo-logisitica.jpg) no-repeat center right / cover;
+    color: white;
+    text-align: center;
+}
+
+.conquistas .container ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 0px 0px;
+}
+
+.conquistas .container ul li{
+    flex: 0 1 300px;
+}
+
+
 
 
 
