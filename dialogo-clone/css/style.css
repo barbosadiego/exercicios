@@ -548,6 +548,11 @@ header > div{
         margin-bottom: 10px;
         padding: 10px;
     }
+
+    .blog .container h1{
+        text-align: center;
+        margin-bottom: 30px;
+    }
     
     .features .container .cards{
         grid-template-columns: 1fr;
