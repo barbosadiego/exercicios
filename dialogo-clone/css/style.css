@@ -855,6 +855,27 @@ footer .footer-bottom img{
 }
 
 
+/* --------- pag contato ------------*/
+
+.hero-contato{
+    background: url(../img/banner-contato-dialogo-logistica.jpg) no-repeat center center / cover;
+    height: 55vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.hero-contato .intro-interna{
+    display: flex;
+    gap: 20px;
+}
+
+.hero-contato .intro-interna h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+
+
 
 
 
