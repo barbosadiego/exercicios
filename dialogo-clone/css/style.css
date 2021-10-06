@@ -875,33 +875,6 @@ footer .footer-bottom img{
     line-height: 60px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------media queries-----------*/
 
 @media(max-width:1000px){
@@ -1074,13 +1047,6 @@ footer .footer-bottom img{
         padding: 20px;
         width: 320px;
     }
-
-
-
-
-
-
-
 
     footer .container,
     footer nav{
