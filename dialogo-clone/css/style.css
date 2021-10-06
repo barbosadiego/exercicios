@@ -795,6 +795,13 @@ footer .footer-bottom img{
     position: relative;
 }
 
+/*---------pag conteudos---------*/
+
+.hero-conteudos{
+    background: url(../img/banner-blog-dialogando-dialogo-logistica.jpg) no-repeat center center / cover;
+    height: 55vh;
+}
+
 
 
 
