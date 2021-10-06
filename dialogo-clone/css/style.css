@@ -771,6 +771,30 @@ footer .footer-bottom img{
     top: -150px;
 }
 
+.video-orcamento{
+    background-color: white;
+}
+
+.video-orcamento {
+    position: relative;
+}
+
+.video-orcamento::after{
+    display: block;
+    content: "";
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--cinza);
+}
+
+.video-orcamento .container{
+    z-index: 10;
+    position: relative;
+}
+
 
 
 
