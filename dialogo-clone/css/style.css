@@ -802,6 +802,30 @@ footer .footer-bottom img{
     height: 55vh;
 }
 
+.hero-conteudos{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.hero-conteudos .intro-interna{
+    display: flex;
+    gap: 20px;
+}
+
+.hero-conteudos h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.blog-conteudos .wrapper{
+    flex-wrap: wrap;
+}
+
+.blog-conteudos .wrapper .article{
+    flex: 1;
+}
+
 
 
 
