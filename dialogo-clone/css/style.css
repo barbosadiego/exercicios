@@ -826,6 +826,34 @@ footer .footer-bottom img{
     flex: 1;
 }
 
+.blog-intro .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    top: -50px;
+}
+
+.blog-intro .container .img{
+    
+    position: relative;
+    left: 60px;
+}
+
+.blog-intro .container article{
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    max-width: 500px;
+    background: white;
+    position: relative;
+    right: 60px;
+}
+
+.blog-intro .container article p{
+    padding: 30px 0px;
+}
+
 
 
 
@@ -1008,7 +1036,23 @@ footer .footer-bottom img{
         height: 180px;
     }
 
+    .blog-intro .container{
+        flex-direction: column;
+        position: relative;
+        top: -50px;
+        padding: 0 10px;
+    }
 
+    .blog-intro .container .img{
+        left: 0;
+    }
+
+    .blog-intro .container article{
+        right: 0;
+        top: -50px;
+        padding: 20px;
+        width: 320px;
+    }
 
 
 
