@@ -10,10 +10,22 @@
 
 body{
     font-family: 'Nunito', sans-serif;
+    color: white;
 }
 
 img{
     max-width: 100%;
+}
+
+.article{
+    display: grid;
+}
+
+
+.overlay-child > *{
+    content: "";
+    grid-area: 1/1/-1/1;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 /*--------------*/
@@ -47,8 +59,15 @@ main{
     display: grid;
     gap: 2px;
     grid-template-columns: repeat(4,1fr);
-    
+}
 
+.article h1{
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.article p{
+    font-size: 20px;
 }
 
 .article-1{
