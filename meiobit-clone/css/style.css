@@ -59,8 +59,49 @@ body{
 
 /*---------nav------------*/
 
+header{
+    background-color: var(--cinzaescuro);
+}
+
 header nav{
     display: flex;
-    background-color: var(--cinzaescuro);
-    padding: 10px calc((100% - 1100px)/2);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header nav >*{
+    display: flex;
+    gap: 20px;
+}
+
+header a{
+    color: white;
+    font-weight: 500;
+}
+
+header .menu a{
+    padding: 18px 0px;
+}
+
+header .menu a:hover{
+    border-bottom: 5px solid white;
+}
+
+header input{
+    background: url(../img/search.svg) no-repeat;
+    background-position: 170px;
+    background-size: 20px;
+    border: 1px solid #333;
+    padding: 10px 15px;
+    border-radius: 3px;
+    outline: none;
+    color: white;
+}
+
+header input:focus{
+    border-color: white;
 }
