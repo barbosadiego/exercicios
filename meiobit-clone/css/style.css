@@ -37,6 +37,7 @@ img{
     left: 0;
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
+    transition: .3s;
 }
 
 .tag{
@@ -171,8 +172,8 @@ header .nav-top .fa-times{
     cursor: pointer;
 }
 
-.intro .cards .card:hover .overlay::after{
-    background: rgba(0, 0, 0, 0.0);
+.intro .cards .card:hover.overlay::after{
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .intro .cards .card h1{
