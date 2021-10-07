@@ -49,6 +49,29 @@ img{
     padding: 10px 20px;
 }
 
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner div::after{
+    content: "PROPAGANDA R$";
+    display: block;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
 
 /*--------titulos---------*/
 
