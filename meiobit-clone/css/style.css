@@ -1,0 +1,66 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body{
+    font-family: 'Titillium Web', sans-serif;   
+}
+
+
+:root{
+    --cinzaescuro:#101619;
+    --preto:#0A0D0F;
+    --amarelo:#FF7F0A;
+    --azul:#3BA4F2;
+    --vermelho:#F30C2C;
+}
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+/*--------titulos---------*/
+
+.titulo{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.capa50{
+    font-size: 43px;
+    line-height: 48px;
+    letter-spacing: -2px;
+}
+
+.capa30{
+    font-size: 25px;
+    line-height: 28px;
+    letter-spacing: -1.3px;
+}
+
+.capa25{
+    font-size: 23px;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+}
+
+.logo-meio{
+    fill: white;
+}
+
+.logo-bit{
+    fill: #3ba4f2;
+}
+
+/*---------nav------------*/
+
+header nav{
+    display: flex;
+    background-color: var(--cinzaescuro);
+    padding: 10px calc((100% - 1100px)/2);
+}
