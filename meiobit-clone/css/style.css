@@ -228,6 +228,15 @@ header .nav-top .fa-times{
 .articles{
     display: grid;
     gap: 20px; 
+    grid-template-columns: 2fr, 1fr;
+    grid-template-rows: repeat(6,1fr);
+    grid-template:
+    "art1 ads"
+    "art2 ."
+    "art3 ."
+    "art4 ."
+    "art5 ."
+    "art6 .";
 }
 
 
@@ -237,6 +246,30 @@ header .nav-top .fa-times{
     width: 700px;
     border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
     padding-bottom: 20px;
+}
+
+.art1{
+    grid-area: art1;
+}
+.art2{
+    grid-area: art2;
+}
+.art3{
+    grid-area: art3;
+}
+.art4{
+    grid-area: art4;
+}
+.art5{
+    grid-area: art5;
+}
+.art6{
+    grid-area: art6;
+}
+
+.banner2{
+    grid-area: ads;
+    background: url(../img/Captura\ de\ tela\ 2021-10-07\ 205351.png) no-repeat center center / contain;
 }
 
 .articles article .info{
@@ -344,6 +377,20 @@ header .nav-top .fa-times{
         font-size: 20px;
         line-height: 25px;
         letter-spacing: 1px;
+    }
+
+    .articles{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-auto-rows: auto;
+        grid-template: 
+        "art1"
+        "art2"
+        "art3"
+        "art4"
+        "art5"
+        "art6"
+        "ads";
     }
 
     .articles article{
