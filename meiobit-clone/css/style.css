@@ -4,6 +4,7 @@
 
 body{
     font-family: 'Titillium Web', sans-serif;   
+    overflow-x: hidden;
 }
 
 
@@ -63,13 +64,18 @@ header{
     background-color: var(--cinzaescuro);
 }
 
+.logo{
+    width: 120px;
+}
+
 header .nav-top{
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -129,7 +135,7 @@ header .nav-top .fa-times{
 
     header .nav-top .main-menu{
         position: absolute;
-        top: 100px;
+        top: 75px;
         right: 0;
         background: var(--preto);
         width: 70%;
@@ -138,7 +144,7 @@ header .nav-top .fa-times{
         flex-direction: column;
         align-items: flex-start;
         justify-content: stretch;
-        transform: translateX(-800px);
+        transform: translateX(+800px);
         transition: .3s ease-in-out;
         
     }
