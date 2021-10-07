@@ -24,6 +24,10 @@ body{
     text-decoration: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 
 /*--------titulos---------*/
 
@@ -32,19 +36,19 @@ body{
     line-height: 28px;
 }
 
-.capa50{
+.titulo50{
     font-size: 43px;
     line-height: 48px;
     letter-spacing: -2px;
 }
 
-.capa30{
+.titulo20{
     font-size: 25px;
     line-height: 28px;
     letter-spacing: -1.3px;
 }
 
-.capa25{
+.titulo15{
     font-size: 23px;
     line-height: 25px;
     letter-spacing: -0.5px;
@@ -97,7 +101,8 @@ header a{
 }
 
 header .menu a{
-    padding: 18px 30px 18px 0px;
+    padding: 18px 0px;
+    text-align: center;
 }
 
 header .menu a:hover{
@@ -125,6 +130,67 @@ header .nav-top .fa-times{
     display: none;
     cursor: pointer;
 }
+
+/*-------intro---------*/
+
+.intro .cards{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 3fr 1fr 2fr;
+    grid-auto-rows: minmax(300px,1fr);
+    background: black;
+    padding: 20px;
+}
+
+.intro .cards .card{
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    padding: 50px 30px;
+}
+
+.intro .card50{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background: url(https://source.unsplash.com/random/1000x1000) no-repeat center center / cover;
+    
+}
+.intro .card20{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background: url(https://source.unsplash.com/random/1000x1001) no-repeat center center / cover;
+    
+}
+.intro .card15-top{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background: url(https://source.unsplash.com/random/1000x1002) no-repeat center center / cover;
+}
+
+.intro .card15-bottom{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background: url(https://source.unsplash.com/random/1000x1003) no-repeat center center / cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width:1060px){
 
