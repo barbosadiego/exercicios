@@ -50,26 +50,24 @@ img{
 }
 
 .container{
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
     display: flex;
-    justify-content: center;
 }
 
 .banner{
     position: relative;
+    margin: auto;
 }
 
-.banner div::after{
-    content: "PROPAGANDA R$";
-    display: block;
-    color: white;
-    font-weight: bold;
+.banner-item p{
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: tomato;
+    padding: 10px;
+    color: white;
 }
 
 
@@ -227,6 +225,38 @@ header .nav-top .fa-times{
     background: url(https://source.unsplash.com/random/1000x1003) no-repeat center center / cover;
 }
 
+.articles{
+    display: grid;
+    gap: 20px; 
+}
+
+
+.articles article{
+    display: flex;
+    gap: 20px;
+    width: 700px;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+    padding-bottom: 20px;
+}
+
+.articles article .info{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.articles article .info ul{
+    display: flex;
+    gap: 10px;
+    align-items: stretch;
+}
+
+.articles article .info img{
+    width: 20px;
+}
+
+
+
 
 
 
@@ -264,7 +294,7 @@ header .nav-top .fa-times{
         flex-direction: column;
         align-items: flex-start;
         justify-content: stretch;
-        transform: translateX(+800px);
+        transform: translateX(-1100px);
         transition: .3s ease-in-out;
         z-index: 100;
     }
@@ -314,5 +344,10 @@ header .nav-top .fa-times{
         font-size: 20px;
         line-height: 25px;
         letter-spacing: 1px;
+    }
+
+    .articles article{
+        flex-direction: column;
+        width: auto;
     }
 }
