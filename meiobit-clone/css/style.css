@@ -288,6 +288,55 @@ header .nav-top .fa-times{
     width: 20px;
 }
 
+footer{
+    background-color: #101619;
+    color: rgba(256, 256, 256, 0.6);
+}
+
+footer .container{
+    gap: 140px;
+}
+
+footer a{
+    color: rgba(256, 256, 256, 0.6);
+    transition: .3s ease-in;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer i{
+    color: white;
+}
+
+footer .logo-footer{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+footer .logo-footer ul{
+    display: flex;
+    gap: 20px;
+}
+
+footer .container nav{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+footer .container nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+.rodape{
+    background-color: #1A2124;
+    color: rgba(256, 256, 256, 0.6);
+}
+
 
 
 
@@ -382,7 +431,6 @@ header .nav-top .fa-times{
     .articles{
         grid-template-columns: auto;
         grid-template-rows: auto;
-        grid-auto-rows: auto;
         grid-template: 
         "art1"
         "art2"
@@ -396,5 +444,20 @@ header .nav-top .fa-times{
     .articles article{
         flex-direction: column;
         width: auto;
+    }
+
+    footer .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer .logo-footer ul{
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    footer .container nav ul{
+        flex-direction: column;
+        gap: 10px;
     }
 }
