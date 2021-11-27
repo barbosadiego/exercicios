@@ -98,6 +98,9 @@ img{
   z-index: var(--z-modal);
   visibility: hidden;
   opacity: 0;
+
+  /* effect 3 */
+  perspective: 1000px;
 }
 
 .modal__content{
@@ -109,7 +112,14 @@ img{
   transition: all .3s;
 
   /* effect 1 */
-  transform: translateY(10%);
+  /* transform: translateY(10%); */
+
+  /* effect 2 */
+  /* transform: scale(.5) translateY(10%); */
+
+  /* effect 3 */
+  transform: rotateX(65deg) scale(.75) translateY(10%);
+  transform-origin: 50% 100%;
 }
 
 .modal__img{
@@ -159,7 +169,14 @@ img{
 }
 
 .show-modal .modal__content{
+  /* effect 1 */
   transform: translateY(0);
+
+  /* effect 2 */
+  transform: scale(1) translateY(0);
+
+  /* effect 3 */
+  transform: rotateX(0) scale(1) translateY(0);
 }
 
 /* BREAKPOINTS */
