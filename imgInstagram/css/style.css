@@ -114,6 +114,10 @@ header .navbar .nav-item:hover{
   display: none;
 }
 
+.showMenuProfile{
+  display: block;
+}
+
 .menu-profile .item-menu{
   display: flex;
   align-items: center;
@@ -160,10 +164,14 @@ header .navbar .nav-item:hover{
   position: absolute;
   right: -50%;
   top: 38px;
-  /* display: none; */
+  display: none;
   /* display: block; */
   height: 278px;
   overflow-y: scroll;
+}
+
+.showMenuLike{
+  display: block;
 }
 
 .menu-like .item-menu{
