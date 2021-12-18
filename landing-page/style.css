@@ -23,11 +23,19 @@ img{
   max-width: 100%;
 }
 
+/* Utilities */
+
 .container{
   max-width: 125rem;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
+
+.hue-shift{
+  animation: hue-shift 5s infinite alternate;
+}
+
+/* Header */
 
 header{
   position: absolute;
@@ -167,4 +175,76 @@ header{
 .sm-link:hover{
   background-image: linear-gradient(to right, #a971ff, #00f0ff);
   color: white;
+}
+
+.image-group{
+  text-align: center;
+  position: relative;
+}
+
+.blob-large{
+  animation: move-up 2s infinite alternate;
+}
+
+.blob-bean{
+  position: absolute;
+  top: 2.5rem;
+  left: -1.5rem;
+  z-index: 10;
+  animation: move-down 2s infinite alternate;
+}
+
+.blob{
+  position: absolute;
+  z-index: -1;
+}
+
+.blob-1{
+  top: -11rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.blob-2{
+  top: 15rem;
+  left: -17rem;
+}
+
+.blob-3{
+  right: 5rem;
+  bottom: -2rem;
+}
+
+.blob-4{
+  left: -21rem;
+  bottom: -17rem;
+}
+
+/* Animations */
+
+@keyframes move-up{
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translateY(2rem);
+  }
+}
+
+@keyframes move-down{
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translateY(-2rem);
+  }
+}
+
+@keyframes hue-shift{
+  from{
+    filter: hue-rotate(0);
+  }
+  to{
+    filter: hue-rotate(360deg);
+  }
 }
