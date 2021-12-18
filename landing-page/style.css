@@ -1,0 +1,43 @@
+/* Base */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.nav{
+  height: 10rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+section{
+  display: none;
+}
