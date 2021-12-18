@@ -21,8 +21,14 @@
       background-color: gray;
       color: white;
     }
-    .num{
+    .num, .res{
       text-align: right;
+    }
+    caption{
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 10px;
+      background-color: lightgray;
     }
   </style>
 </head>
@@ -30,6 +36,7 @@
   <h1>Uso de tabelas grandes</h1>
   <!-- 
       ANATOMIA PARA TABELAS GRANDES
+      CAPTION
       TABLE
         THEAD
           TR, TD, TH
@@ -39,10 +46,11 @@
           TR, TD, TH  
    -->
    <table>
+     <caption>População das Unidades Federativas</caption>
      <thead>
        <tr>
-         <th>Estado</th>
-         <th>População</th>
+         <th scope="col">Estado</th>
+         <th scope="col">População</th>
        </tr>
      </thead>
      <tbody>
@@ -157,8 +165,8 @@
      </tbody>
      <tfoot>
       <tr>
-        <td>Todal de Habitantes</td>
-        <td><strong id="total"></strong></td>
+        <th scope="row">Todal de Habitantes</th>
+        <td class="res"><strong id="total"></strong></td>
       </tr>
      </tfoot>
      <script src="populacao.js"></script>
