@@ -22,3 +22,23 @@ body {
   stroke-dasharray: 0.2, 0.8;
   stroke-dashoffset: 0.1;
 }
+
+.hand {
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.hand--thick {
+  stroke-width: 7;
+}
+
+.hand--second{
+  stroke: yellow;
+}
+
+.center{
+  fill: #7b0828;
+  stroke-width: 2;
+  stroke: white;
+}
