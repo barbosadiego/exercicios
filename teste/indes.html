@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Teste</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <script>
+      const array = ["melão", "uva", "peru", "sushi", "caminhada"];
+      const text = array.reduce((acc, item, index) => {
+        const gender = item.slice(-1);
+        const sulfix = gender === "a" ? "cozida" : "cozido";
+        const last = array.length - 1;
+        return index !== last ? `${acc} ${item} ${sulfix},` : `${acc} ${item} ${sulfix}`;
+      }, "");
+
+      console.log(text);
+    </script>
+  </body>
 </html>
