@@ -11,8 +11,7 @@
     <script>
       const array = ["melão", "uva", "peru", "sushi", "caminhada"];
       const text = array.reduce((acc, item, index) => {
-        const gender = item.slice(-1);
-        const sulfix = gender === "a" ? "cozida" : "cozido";
+        const sulfix = /a$/.test(item) ? "cozida" : "cozido";
         const last = array.length - 1;
         return index !== last ? `${acc} ${item} ${sulfix},` : `${acc} ${item} ${sulfix}`;
       }, "");
